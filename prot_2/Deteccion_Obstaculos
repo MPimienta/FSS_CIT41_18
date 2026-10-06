@@ -1,0 +1,44 @@
+task Deteccion_Obstaculos_Colisiones;
+
+task body Deteccion_Obstaculos_Colisiones is
+	Hay_obstaculo : Boolean := False;
+	Distancia_obstaculo : Integer := -1;
+	Velocidad_aeronave : Integer := Calcular_velocidad_aeronave();
+	Tiempo_al_obstaculo : Integer := Distancia_obstaculo/Velocidad_aeronave; // funcion
+
+	Visibilidad : Integer := Calcular_visibilidad();
+	Piloto_presente : Boolean := Is_piloto_presente();
+
+	Siguiente_Instante : Time;
+	Intervalo : Time_Span := Millisecinds(250);
+begin
+	Siguiente_Instante := Clock + Intervalo;
+	loop
+		Hay_obstaculo := Detectar_obstaculo();
+		if (Hay_obstaculo = true) then
+			Distancia_obstaculo := Calcular_Distancia_Obstaculo();
+			if (Distancia_obstaculo > 5000) then
+				Hay_obstaculo := False;
+			else then
+				Velocidad_aeronave := Calcular_velocidad_aeronave();
+				Tiempo_al_obstaculo : Integer := Distancia_obstaculo/Velocidad_aeronave;
+				Visibilidad := Calcular_visibilidad();
+				Piloto_presente := Is_piloto_presente();
+				if (Visibilidad < 500 or !Piloto_presente) then
+					if (Tiempo_al_obstaculo < 15) then Alarm(4);
+						if (Tiempo_al_obstaculo < 10) then Maniobra_desvio();
+						end if;
+					end if;
+				else 
+					if (Tiempo_al_obstaculo < 10) then Alarm(4);
+						if (Tiempo_al_obstaculo < 5) then Maniobra_desvio();
+						end if;
+					end if;
+				end if;
+			end if;
+		end if;
+		
+		delay until Siguiente_Instante;
+		Siguiente_Instante = Siguiente_Instante + Intervalo;
+	end loop;
+end Deteccion_Obstaculos_Colisiones;
