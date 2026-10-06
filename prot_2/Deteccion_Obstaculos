@@ -2,11 +2,11 @@ task Deteccion_Obstaculos_Colisiones;
 
 task body Deteccion_Obstaculos_Colisiones is
 	Hay_obstaculo : Boolean := False;
-	Distancia_obstaculo : Integer := -1;
-	Velocidad_aeronave : Integer := Calcular_velocidad_aeronave();
-	Tiempo_al_obstaculo : Integer := Distancia_obstaculo/Velocidad_aeronave; // funcion
+	Distancia_obstaculo : Float := -1.0;
+	Velocidad_aeronave : Float := Calcular_velocidad_aeronave();
+	Tiempo_al_obstaculo : Float := Distancia_obstaculo/Velocidad_aeronave; // funcion
 
-	Visibilidad : Integer := Calcular_visibilidad();
+	Visibilidad : Float := Calcular_visibilidad();
 	Piloto_presente : Boolean := Is_piloto_presente();
 
 	Siguiente_Instante : Time;
@@ -17,21 +17,21 @@ begin
 		Hay_obstaculo := Detectar_obstaculo();
 		if (Hay_obstaculo = true) then
 			Distancia_obstaculo := Calcular_Distancia_Obstaculo();
-			if (Distancia_obstaculo > 5000) then
+			if (Distancia_obstaculo > 5000.0) then
 				Hay_obstaculo := False;
 			else then
 				Velocidad_aeronave := Calcular_velocidad_aeronave();
 				Tiempo_al_obstaculo : Integer := Distancia_obstaculo/Velocidad_aeronave;
 				Visibilidad := Calcular_visibilidad();
 				Piloto_presente := Is_piloto_presente();
-				if (Visibilidad < 500 or !Piloto_presente) then
-					if (Tiempo_al_obstaculo < 15) then Alarm(4);
-						if (Tiempo_al_obstaculo < 10) then Maniobra_desvio();
+				if (Visibilidad < 500.0 or !Piloto_presente) then
+					if (Tiempo_al_obstaculo < 15.0) then Alarm(4);
+						if (Tiempo_al_obstaculo < 10.0) then Maniobra_desvio();
 						end if;
 					end if;
 				else 
-					if (Tiempo_al_obstaculo < 10) then Alarm(4);
-						if (Tiempo_al_obstaculo < 5) then Maniobra_desvio();
+					if (Tiempo_al_obstaculo < 10.0) then Alarm(4);
+						if (Tiempo_al_obstaculo < 5.0) then Maniobra_desvio();
 						end if;
 					end if;
 				end if;
