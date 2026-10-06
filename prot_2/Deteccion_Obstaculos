@@ -24,7 +24,7 @@ begin
 				Tiempo_al_obstaculo : Integer := Distancia_obstaculo/Velocidad_aeronave;
 				Visibilidad := Calcular_visibilidad();
 				Piloto_presente := Is_piloto_presente();
-				if (Visibilidad < 500.0 or !Piloto_presente) then
+				if (Visibilidad < 500.0 or not Piloto_presente) then
 					if (Tiempo_al_obstaculo < 15.0) then Alarm(4);
 						if (Tiempo_al_obstaculo < 10.0) then Maniobra_desvio();
 						end if;
