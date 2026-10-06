@@ -14,6 +14,8 @@ with System; use System;
 with Tools; use Tools;
 with devicesFSS_V1; use devicesFSS_V1;
 
+with Pkg_Position_Altitude;
+
 -- NO ACTIVAR ESTE PAQUETE MIENTRAS NO SE TENGA PROGRAMADA LA INTERRUPCION
 -- Packages needed to generate button interrupts       
 -- with Ada.Interrupts.Names;
@@ -47,10 +49,6 @@ package body fss is
     Task Velocidad is 
     	pragma priority (5);
     end Velocidad;
-    
-    Task Position_Altitude is
-    	pragma priority (4);
-    end Position_Altitude;
     
     Task Sensores is
     	pragma priority (3);
@@ -124,71 +122,6 @@ package body fss is
          end loop;
     end Velocidad;
     
-    Task body Altitud is
-    	Current_J: Joystick_Samples_Type := (0,0);
-        Target_Pitch: Pitch_Samples_Type := 0;
-        Target_Roll: Roll_Samples_Type := 0; 
-        Aircraft_Pitch: Pitch_Samples_Type; 
-        Aircraft_Roll: Roll_Samples_Type;
-        
-        Current_A: Altitude_Samples_Type := 8000;
-        
-        Siguiente_Instante : Time;
-        Intervalo : Time_Span := Milliseconds (300);
-        
-    begin
-    	Siguiente_Instante := Clock + Intervalo;
-    	loop
-    	Start_Activity ("Task Altitud");  
-            
-            -- Lee Joystick del piloto
-            Read_Joystick (Current_J);
-            
-            -- establece Pitch y Roll en la aeronave
-            Target_Pitch := Pitch_Samples_Type (Current_J(x));
-            Target_Roll := Roll_Samples_Type (Current_J(y));
-            
-            if (Target_Pitch > 30) then
-            	Set_Aircraft_Pitch (30);
-            else
-            	Set_Aircraft_Pitch (Target_Pitch);
-            end if;
-            
-            if (Target_Roll > 45) then
-            	Set_Aircraft_Roll (45);
-            else
-            	Set_Aircraft_Roll (Target_Roll);
-            end if;
-                                      
-            
-            
-                       
-            Aircraft_Pitch := Read_Pitch;       -- lee la posición pitch de la aeronave
-            Aircraft_Roll := Read_Roll;         -- lee la posición roll  de la aeronave
-            
-            Display_Joystick (Current_J);       -- muestra por display el joystick  
-            Display_Pitch (Aircraft_Pitch);     -- muestra por display la posición de la aeronave  
-            Display_Roll (Aircraft_Roll);
-
-            -- Comprueba altitud
-            Current_A := Read_Altitude;         -- lee y muestra por display la altitud de la aeronave  
-            Display_Altitude (Current_A);
-            
-            if (Current_A > 10000) then
-            	Light_2 (On);
-            else
-            	Light_2 (Off);
-            end if;
-            
-            if (Current_A > 9000) then Alarm (3); 
-                                       Display_Message ("To high");
-            end if; 
-            Finish_Activity ("Task Altitud");   
-            delay until Siguiente_Instante;
-            Siguiente_Instante := Siguiente_Instante + Intervalo;
-        end loop;
-
-    end Altitud;
     
     Task body Sensores is
     	Current_Pp: PilotPresence_Samples_Type := 1;
