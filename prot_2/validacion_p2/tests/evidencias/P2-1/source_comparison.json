@@ -1,0 +1,11 @@
+{
+  "manifest_count": 23,
+  "expected_count": 23,
+  "missing": [],
+  "extra": [],
+  "mismatches": [],
+  "scenario_files_match": {
+    "fss_config.ads": true,
+    "testing_1.ads": true
+  }
+}
