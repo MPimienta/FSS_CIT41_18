@@ -1,0 +1,238 @@
+{
+  "case": "P2-2",
+  "engine": "TSIM/ERC32 1.0.10",
+  "source": "User-supplied P2-2.nrU6bU.zip, received 2026-09-29",
+  "sha256": "48dd5a72d94d80a338dbdb335140fb33236087abe164a06741b07c75504b3e4b",
+  "detailed_window_seconds": 70,
+  "job_counts": {
+    "POSITION": 350,
+    "SPEED": 234
+  },
+  "completion_counts": {
+    "POSITION": 350,
+    "SPEED": 234
+  },
+  "task_response_max_ms": {
+    "POSITION": 54.6375,
+    "SPEED": 72.801
+  },
+  "trace_summary": {
+    "time": 126.5143956,
+    "kind": "TRACE_SUMMARY",
+    "window": 70.0,
+    "lost": 0,
+    "live_lost": 0,
+    "clipped": 0,
+    "max_live_output_age": 0.0633631
+  },
+  "build_log_received": true,
+  "source_manifest_received": true,
+  "source_comparison": {
+    "manifest_count": 23,
+    "expected_count": 23,
+    "missing": [],
+    "extra": [],
+    "mismatches": [],
+    "scenario_files_match": {
+      "fss_config.ads": true,
+      "testing_1.ads": true
+    }
+  },
+  "memory": {
+    "text_bytes": 252448,
+    "data_bytes": 25924,
+    "bss_bytes": 3096524,
+    "static_total_bytes": 3374896,
+    "simulated_ram_bytes": 4194304,
+    "remaining_after_static_bytes": 819408
+  },
+  "result": {
+    "code": "P2-2",
+    "engine": "tsim",
+    "events": 2687,
+    "checks": [
+      {
+        "check": "La aplicacion produce trazas",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin excepciones Ada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Ventana de captura completa",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin perdida ni truncamiento de salida",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Salida visible sin atraso de un periodo de display",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin OVERRUN en la ventana observada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Velocidad de salida entre 300 y 1000",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Pitch limitado a +/-30",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Roll limitado a +/-45",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Releases absolutos POSITION",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin activaciones perdidas POSITION",
+        "passed": true,
+        "detail": "350/350"
+      },
+      {
+        "check": "Todas las activaciones completadas POSITION",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Respuesta dentro del periodo POSITION",
+        "passed": true,
+        "detail": "max_ms=54.637"
+      },
+      {
+        "check": "Releases absolutos SPEED",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin activaciones perdidas SPEED",
+        "passed": true,
+        "detail": "234/234"
+      },
+      {
+        "check": "Todas las activaciones completadas SPEED",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Respuesta dentro del periodo SPEED",
+        "passed": true,
+        "detail": "max_ms=72.801"
+      },
+      {
+        "check": "Proteccion inferior observada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Proteccion superior observada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Recuperacion desde limite inferior",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Recuperacion desde limite superior",
+        "passed": true,
+        "detail": ""
+      }
+    ],
+    "passed": 21,
+    "total": 21,
+    "timing": {
+      "overruns": 0,
+      "max_evasion_response_ms": 0,
+      "max_end_lateness_ms": 0
+    }
+  },
+  "additional_review": {
+    "position_samples_checked": 350,
+    "all_samples_match_input_pitch_roll_and_warning": true,
+    "observed_altitude_range_m": [
+      2000,
+      10040
+    ],
+    "lower_block_samples": 20,
+    "upper_block_samples": 36,
+    "lower_recovery_samples": 1,
+    "upper_recovery_samples": 2,
+    "warning_changes": [
+      {
+        "time": 0.0529298,
+        "kind": "POSITION_DATA",
+        "jx": -90,
+        "jy": 0,
+        "alt": 8000,
+        "pitch": -30,
+        "roll": 0,
+        "warning": "FALSE"
+      },
+      {
+        "time": 18.4355321,
+        "kind": "POSITION_DATA",
+        "jx": -90,
+        "jy": 0,
+        "alt": 2480,
+        "pitch": -30,
+        "roll": 0,
+        "warning": "TRUE"
+      },
+      {
+        "time": 25.8354415,
+        "kind": "POSITION_DATA",
+        "jx": 90,
+        "jy": 0,
+        "alt": 2540,
+        "pitch": 30,
+        "roll": 0,
+        "warning": "FALSE"
+      },
+      {
+        "time": 49.235604,
+        "kind": "POSITION_DATA",
+        "jx": 90,
+        "jy": 0,
+        "alt": 9560,
+        "pitch": 30,
+        "roll": 0,
+        "warning": "TRUE"
+      },
+      {
+        "time": 60.8355618,
+        "kind": "POSITION_DATA",
+        "jx": -15,
+        "jy": 0,
+        "alt": 9480,
+        "pitch": -15,
+        "roll": 0,
+        "warning": "FALSE"
+      }
+    ]
+  },
+  "limitations": [
+    "Detailed timing evidence covers the first 70 seconds; later output does not establish every deadline.",
+    "Observed response maxima and ELF static sizes are not certified WCET or maximum stack/heap usage.",
+    "Observed altitude reaches 10040 m before the sampled controller blocks further climb; the checked rule concerns the action when altitude is read at or beyond 10000 m, not an invariant that altitude never exceeds 10000 m.",
+    "Log shows normal simulator exit but no overflow marker; the final simulated time cannot be inferred from the last live output timestamp."
+  ]
+}

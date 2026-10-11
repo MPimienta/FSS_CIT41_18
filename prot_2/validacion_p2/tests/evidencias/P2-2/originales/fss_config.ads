@@ -1,0 +1,24 @@
+with Ada.Real_Time; use Ada.Real_Time;
+with System;
+package FSS_Config is
+   Scenario_Id : constant Positive := 2;
+   Prototype : constant Positive := 2;
+   Enable_Collision  : constant Boolean := Prototype >= 3;
+   Enable_Display    : constant Boolean := Prototype >= 4;
+   Enable_Mode       : constant Boolean := Prototype >= 5;
+   Trace_Enabled     : constant Boolean := True;
+   Position_Period   : constant Time_Span := Milliseconds (200);
+   Speed_Period      : constant Time_Span := Milliseconds (300);
+   Collision_Period  : constant Time_Span := Milliseconds (250);
+   Display_Period    : constant Time_Span := Milliseconds (1000);
+   Mode_Separation   : constant Time_Span := Milliseconds (330);
+   Evasion_Duration  : constant Time_Span := Milliseconds (3000);
+   Collision_Deadline : constant Time_Span := Milliseconds (80);
+   Collision_Priority : constant System.Priority := 20;
+   Timer_Priority     : constant System.Priority := 19;
+   Mode_Priority      : constant System.Priority := 18;
+   Position_Priority  : constant System.Priority := 16;
+   Speed_Priority     : constant System.Priority := 14;
+   Display_Priority   : constant System.Priority := 10;
+   Control_Ceiling    : constant System.Priority := 20;
+end FSS_Config;

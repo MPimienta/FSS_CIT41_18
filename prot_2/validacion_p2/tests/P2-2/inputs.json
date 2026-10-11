@@ -1,0 +1,6310 @@
+{
+  "id": 2,
+  "code": "P2-2",
+  "name": "Altitud y recuperacion",
+  "seconds": 70,
+  "prototype": 2,
+  "sample_ms": 100,
+  "inputs": [
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": 90,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    },
+    {
+      "power": 500,
+      "jx": -15,
+      "jy": 0,
+      "distance": 9000,
+      "light": 1000,
+      "present": 1,
+      "button": 0
+    }
+  ]
+}
