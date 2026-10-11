@@ -3,7 +3,7 @@ A -g
 P LC TF
 R nnvnrnnvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
 
-U devicesfss_v1%b	devicesfss_v1.adb	52180B11 PK
+U devicesfss_v1%b	devicesfss_v1.adb	7A5611BE PK
 W ada.exceptions%s	a-except.adb		a-except.ali
 W kernel%s		kernel.ads		kernel.ali
 W kernel.serial_output%s  kernel-serial_output.adb  kernel-serial_output.ali
@@ -58,7 +58,7 @@ D s-taprop.ads		20261002155301 36F12025
 D s-taskin.ads		20261002155301 09146F23
 D s-taprob.ads		20261002155301 1D5668B3
 D s-unstyp.ads		20261002155301 78AFB91D
-D testing_1.ads		20260929141614 2FBACD35
+D testing_1.ads		20261011113156 07F4D79A
 D tools.ads		20240928193923 40AA26E7
 D unchconv.ads		20261002155301 72DC4539
 X 1 ada.ads
@@ -256,16 +256,16 @@ X 38 testing_1.ads
 68a5*Light_Intensity_Simulation 9|48r42
 93M10*Indice_Secuencia_Joystick 9|78r10 93r15
 94A10*tipo_Secuencia_Joystick 9|79r18
-97a5*Joystick_Simulation 9|79r45
-161M10*Indice_Secuencia_Power 9|107r10 124r15
-162A10*tipo_Secuencia_Power 9|108r18
-164a5*Power_Simulation 9|108r42
-191M10*Indice_Secuencia_PilotPresence 9|152r13 155r15
-192A10*tipo_Secuencia_PilotPresence 9|140r18
-194a5*PilotPresence_Simulation 9|140r50
-219M10*Indice_Secuencia_PilotButton 9|181r13 184r15
-220A10*tipo_Secuencia_PilotButton 9|169r18
-222a5*PilotButton_Simulation 9|169r48
+96a1*Joystick_Simulation 9|79r45
+127M10*Indice_Secuencia_Power 9|107r10 124r15
+128A10*tipo_Secuencia_Power 9|108r18
+130a5*Power_Simulation 9|108r42
+157M10*Indice_Secuencia_PilotPresence 9|152r13 155r15
+158A10*tipo_Secuencia_PilotPresence 9|140r18
+160a5*PilotPresence_Simulation 9|140r50
+185M10*Indice_Secuencia_PilotButton 9|181r13 184r15
+186A10*tipo_Secuencia_PilotButton 9|169r18
+188a5*PilotButton_Simulation 9|169r48
 X 39 tools.ads
 6U9*tools 9|4r6 4r17
 8O5*Big_Bang 9|32r46 63r46 92r46 123r46 154r46 183r46
