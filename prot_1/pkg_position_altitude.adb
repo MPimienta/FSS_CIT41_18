@@ -1,17 +1,23 @@
-Task body Position_Altitude is
-    	Current_J: Joystick_Samples_Type := (0,0);
-        Target_Pitch: Pitch_Samples_Type := 0;
-        Target_Roll: Roll_Samples_Type := 0; 
-        Aircraft_Pitch: Pitch_Samples_Type; 
-        Aircraft_Roll: Roll_Samples_Type;
+with Ada.Real_Time; use Ada.Real_Time;
+with Tools; use Tools;
+with devicesFSS_V1; use devicesFSS_V1;
+with pkg_flight_data; use pkg_flight_data;
+
+Package body Pkg_Position_Altitude is 
+   Task body Position_Altitude is
+      Current_J: Joystick_Samples_Type := (0,0);
+      Target_Pitch: Pitch_Samples_Type := 0;
+      Target_Roll: Roll_Samples_Type := 0; 
+      Aircraft_Pitch: Pitch_Samples_Type; 
+      Aircraft_Roll: Roll_Samples_Type;
         
-        Current_A: Altitude_Samples_Type := 8000;
+      Current_A: Altitude_Samples_Type := 8000;
         
-        Siguiente_Instante : Time;
-        Intervalo : Time_Span := Milliseconds (200);
+      Siguiente_Instante : Time;
+      Intervalo : Time_Span := Milliseconds (200);
         
     begin
-    	Siguiente_Instante := Clock + Intervalo;
+      Siguiente_Instante := Clock + Intervalo;
     	loop
     	Start_Activity ("Task Position_Altitude launched");  
             
@@ -34,14 +40,16 @@ Task body Position_Altitude is
             end if;
 
 
-            -- Detecta el rango de [-3, +3] como 0
+            -- Detectar el rango de [-3, +3] como 0
             if (Target_Pitch <= 3 and Target_Pitch >= -3) then
                Target_Pitch := 0;
             end if;
 
-            -- Limita el cabeceo a +30 o -30 grados y
-            -- Nivela la nave si la altitud es igual o superior a 10000m, ignorando input de ascenso en tal caso
-            -- Nivela la nave si la altitud es igual o inferior a 2000m, ignorando input de descenso en tal caso
+            if (Target_Roll <= 3 and Target_Roll >= -3) then
+               Target_Roll := 0;
+            end if;
+
+            -- Limites de cabeceo y nivelacion por altitud
             if (Target_Pitch > 0 and Current_A >= 10000) then
                Target_Pitch := 0;
             elsif (Target_Pitch > 30) then
@@ -51,9 +59,26 @@ Task body Position_Altitude is
             elsif (Target_Pitch < -30) then
                Target_Pitch := -30;
             end if;
-               
+
+            -- Limites de alabeo y aviso
+            if Target_Roll > 35 then
+               Display_Message ("Angulo alabeo superior a 35");
+               if Target_Roll > 45 then
+                  Target_Roll := 45;
+               end if;
+            elsif Target_Roll < -35 then
+               Display_Message ("Angulo alabeo inferior a -35");
+               if Target_Roll < -45 then
+                  Target_Roll := -45;
+               end if;
+            end if;
+
+            -- Actualizar posicion
+            Flight_Data.Update_Roll_Protected(Target_Roll);   
+            Flight_Data.Update_Pitch_Protected (Target_Pitch);
+            
             Set_Aircraft_Pitch (Target_Pitch);
-             
+            Set_Aircraft_Roll (Target_Roll);
                        
             Aircraft_Pitch := Read_Pitch;       -- lee la posición pitch de la aeronave
             Aircraft_Roll := Read_Roll;         -- lee la posición roll  de la aeronave
@@ -62,11 +87,11 @@ Task body Position_Altitude is
             Display_Pitch (Aircraft_Pitch);     -- muestra por display la posición de la aeronave  
             Display_Roll (Aircraft_Roll);
 
-            end if; 
             Finish_Activity ("Task Altitud");   
             delay until Siguiente_Instante;
             Siguiente_Instante := Siguiente_Instante + Intervalo;
         end loop;
 
     end Position_Altitude;
+end Pkg_Position_Altitude;
 
