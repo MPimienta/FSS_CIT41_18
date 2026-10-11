@@ -1,6 +1,7 @@
 with Ada.Real_Time; use Ada.Real_Time;
 with Tools; use Tools;
 with devicesFSS_V1; use devicesFSS_V1;
+with pkg_flight_data; use pkg_flight_data;
 
 Package body Pkg_Position_Altitude is 
    Task body Position_Altitude is
@@ -73,9 +74,11 @@ Package body Pkg_Position_Altitude is
             end if;
 
             -- Actualizar posicion
-            Set_Aircraft_Roll(Target_Roll);   
+            Flight_Data.Update_Roll_Protected(Target_Roll);   
+            Flight_Data.Update_Pitch_Protected (Target_Pitch);
+            
             Set_Aircraft_Pitch (Target_Pitch);
-             
+            Set_Aircraft_Roll (Target_Roll);
                        
             Aircraft_Pitch := Read_Pitch;       -- lee la posición pitch de la aeronave
             Aircraft_Roll := Read_Roll;         -- lee la posición roll  de la aeronave
