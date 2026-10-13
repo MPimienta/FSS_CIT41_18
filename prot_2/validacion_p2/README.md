@@ -1,69 +1,74 @@
-# Validacion de P2-1 y P2-2
+# Prototipo 2: escenarios P2-1, P2-2 y P2-3
 
-Contribucion al grupo CIT41-LAB-G18. Ambos escenarios comparten las fuentes
-de `src/`; cada escenario aporta `testing_1.ads` y `fss_config.ads` en `tests/`.
-Este directorio puede compilarse y ejecutarse de forma independiente. El codigo
-que ya existia en los demas archivos de `prot_2/` se conserva para la integracion
-del grupo. Ejecutar el Makefile del directorio padre NO ejecuta esta version.
+Grupo CIT41-LAB-G18. Esta contribucion se ejecuta desde `prot_2/validacion_p2`.
+Las fuentes compartidas estan en `src/`, con `Prototype = 2` en los tres casos.
+Ejecutar el Makefile del directorio padre no ejecuta esta version.
 
-Las fuentes proceden de la implementacion FSS ya validada en la VM de STR.
-Se conserva el codigo comun, incluidas las extensiones posteriores, para
-mantener la correspondencia con las evidencias. En ambos escenarios
-`Prototype = 2`: colisiones, display periodico y cambio de modo estan
-desactivados. La configuracion inicial de `src/` es P2-1.
+## Archivos de la entrega
+
+| Escenario | Fichero | Contenido |
+| --- | --- | --- |
+| P2-1 | `tests/P2-1/testing_2_1.ads` | Limites de velocidad y valor intermedio |
+| P2-2 | `tests/P2-2/testing_2_2.ads` | Limites de altitud, recuperacion y roll combinado |
+| P2-3 | `tests/P2-3/testing_2_3.ads` | Joystick, banda muerta, saturacion y compensacion |
+
+`Escenarios_Prototipo_2.pdf` describe las situaciones de cada fichero.
+Los ficheros conservan `package Testing_1`: el lanzador copia el seleccionado
+como `testing_1.ads` en una carpeta temporal antes de compilar. No se compilan
+los tres escenarios juntos ni es necesario cambiar el nombre del paquete Ada.
 
 ## Ejecutar en la VM de STR
-
-Desde la raiz del repositorio:
 
 ```sh
 cd prot_2/validacion_p2
 sh EJECUTAR.sh P2-1
 sh EJECUTAR.sh P2-2
+sh EJECUTAR.sh P2-3
 ```
 
-Ejecutar un escenario cada vez. En el indicador `tsim>` escribir `go`;
-al terminar la simulacion, escribir `quit` para volver al terminal.
-Requiere `make`, `sparc-ork-gnatmake`, `tsim-erc32`, `script` y `sha256sum`.
-Con Python 3 se comprueba tambien el registro automaticamente.
+Ejecutar un escenario cada vez. En `tsim>` escribir `go`; esperar a
+`TRACE_SUMMARY` y a la parada de simulacion, y escribir `quit`.
+Las evidencias se guardan en `~/Descargas/FSS-resultados/` (o Downloads).
+Guardarlas fuera de la VM antes de cerrar la sesion.
 
-El lanzador copia las fuentes a un directorio temporal, aplica la configuracion
-del escenario y compila alli. Guarda las nuevas evidencias en
-`~/Descargas/FSS-resultados/` (o `~/Downloads/FSS-resultados/`). Hay que guardar
-esos resultados fuera de la VM antes de cerrar la sesion.
+Para modificar entradas, editar el `.ads` del escenario y actualizar su
+`inputs.json` para mantener la descripcion sincronizada. El JSON no se carga
+ni se convierte automaticamente al ejecutar. Cada muestra representa 100 ms.
 
-## Evidencias recibidas de la VM (29-09-2026)
+## Estado de validacion
 
-| Escenario | Objetivo | Comprobaciones | Ventana detallada |
-| --- | --- | --- | --- |
-| P2-1 | Limites de velocidad de 300 y 1000 km/h y valor intermedio de 600 km/h | 18/18 | 20 s |
-| P2-2 | Avisos de altitud, proteccion de los limites de 2000 y 10000 m y recuperacion | 21/21 | 70 s |
+| Escenario | Evidencia en VM/TSIM | Validacion local del 13-10-2026 |
+| --- | --- | --- |
+| P2-1 | 18/18; entradas y 23 hashes originales conservados | 18/18, GNAT nativo |
+| P2-2 roll-v2 | PENDIENTE de nueva ejecucion; el 21/21 anterior era sin roll | 32/32, GNAT nativo |
+| P2-3 | 20/20; entradas y 23 hashes originales conservados | 20/20, GNAT nativo |
 
-En cada escenario se recibieron `build.log`, `tsim.log` y `sources.sha256`;
-los 23 hashes coinciden con las fuentes y la configuracion de su escenario.
-Las evidencias originales estan en `tests/evidencias/<escenario>/originales/`.
-Los JSON adyacentes incluyen revisiones independientes de las muestras.
+La validacion local usa un adaptador para UART, interrupciones y workload.
+Comprueba funcionalidad; sus tiempos no certifican plazos en ERC32.
+`tests/evidencias/P2-2/originales/` conserva la prueba anterior, sin roll.
+`tests/evidencias/P2-2/roll-v2-host/` contiene la nueva prueba local.
+No se presenta el antiguo 21/21 como evidencia del escenario ampliado.
 
-Para repetir las comprobaciones sobre los registros recibidos:
+El lanzador exige las comprobaciones nuevas para P2-2. Para comprobar un log
+de la nueva ejecucion manualmente:
 
 ```sh
-python3 tests/verificar_logs.py --file tests/evidencias/P2-1/originales/tsim.log --case P2-1 --engine tsim
-python3 tests/verificar_logs.py --file tests/evidencias/P2-2/originales/tsim.log --case P2-2 --engine tsim
+python3 tests/verificar_logs.py --file RUTA/tsim.log --case P2-2 --engine tsim --p2-2-roll
 ```
 
-Las medidas son observaciones de esas ejecuciones, no una demostracion de WCET.
-En P2-2 se observo una altitud maxima de 10040 m: al leer el limite, el sistema
-bloquea seguir ascendiendo y permite descender; no se afirma que nunca se
-supere 10000 m. La compensacion de velocidad en ascensos y giros corresponde
-principalmente a P2-3, que no forma parte de esta contribucion de pruebas.
+La opcion `--p2-2-roll` rechaza el log historico sin giros. Para consultar las
+pruebas originales se omite esa opcion. Los logs originales de P2-1 y P2-3 se
+comprueban con `--case P2-1` o `--case P2-3`, respectivamente.
 
-## Archivos principales
+## P2-2 ampliado
 
-- `src/fss.adb`: tareas y objeto protegido de control compartido.
-- `src/fss_rules.adb`: reglas de velocidad, actitud y altitud.
-- `src/devicesfss_v1.adb`: dispositivos simulados del entorno de practicas.
-- `tests/P2-1/` y `tests/P2-2/`: entradas y configuraciones de cada escenario.
-- `tests/verificar_logs.py`: comprobador de registros, compartido con la entrega validada.
+Se conservan 70 s: descenso fuerte hasta 24 s, ascenso hasta 58 s y descenso
+de recuperacion hasta 70 s. Se anaden giros positivos y negativos, entradas
+Y de +/-90 limitadas a +/-45, banda muerta en +/-3 y vuelta a roll cero.
+Se comprueba que la proteccion de altitud bloquea el pitch hacia fuera del
+limite sin anular el roll, y que la compensacion de velocidad responde a la
+actitud aplicada. Se observan 600, 700, 750 y 800 km/h con potencia 500.
 
-Se mantienen los nombres del grupo en las fuentes. Esta contribucion corresponde
-al proyecto FSS; no es el fichero `add.adb` de los ejercicios introductorios.
+La altitud se muestrea: se protege al detectar el limite. No se afirma que
+nunca pueda superar 10000 m entre muestras. Se mantiene la comprobacion de
+alarmas de altitud por debajo de 2500 m o por encima de 9500 m.

@@ -3,9 +3,10 @@
 set -eu
 case_name=${1:-P2-1}
 case "$case_name" in
-    P2-1|P2-2) ;;
-    *) echo "Uso: sh EJECUTAR.sh [P2-1|P2-2]"; exit 2 ;;
+    P2-1|P2-2|P2-3) ;;
+    *) echo "Uso: sh EJECUTAR.sh [P2-1|P2-2|P2-3]"; exit 2 ;;
 esac
+scenario_file="testing_2_${case_name#P2-}.ads"
 project_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)
 for tool in make sparc-ork-gnatmake tsim-erc32 script sha256sum; do
     if ! command -v "$tool" >/dev/null 2>&1; then
@@ -13,7 +14,7 @@ for tool in make sparc-ork-gnatmake tsim-erc32 script sha256sum; do
         exit 2
     fi
 done
-for file in src/fss.adb src/Makefile "tests/$case_name/testing_1.ads" "tests/$case_name/fss_config.ads"; do
+for file in src/fss.adb src/Makefile "tests/$case_name/$scenario_file" "tests/$case_name/fss_config.ads"; do
     if [ ! -f "$project_dir/$file" ]; then echo "Paquete incompleto: $file"; exit 2; fi
 done
 work_dir=$(mktemp -d "${TMPDIR:-/tmp}/fss-$case_name.XXXXXX")
@@ -25,7 +26,7 @@ if [ ! -d "$results_root" ]; then mkdir "$results_root"; fi
 result_dir=$(mktemp -d "$results_root/$case_name.XXXXXX")
 cp "$project_dir"/src/* "$work_dir/"
 chmod u+w "$work_dir/fss_config.ads" "$work_dir/testing_1.ads"
-cp "$project_dir/tests/$case_name/testing_1.ads" "$work_dir/testing_1.ads"
+cp "$project_dir/tests/$case_name/$scenario_file" "$work_dir/testing_1.ads"
 cp "$project_dir/tests/$case_name/fss_config.ads" "$work_dir/fss_config.ads"
 cd "$work_dir"
 sha256sum *.adb *.ads gnat.adc Makefile > "$result_dir/sources.sha256"
@@ -47,7 +48,9 @@ echo "TRACE_SUMMARY aparece cuando se ha transmitido toda la ventana de prueba."
 echo "El tiempo de cada evento es su instante de ocurrencia, no el de impresion."
 script -q -c "tsim-erc32 main" "$result_dir/tsim.log"
 if command -v python3 >/dev/null 2>&1; then
-    if python3 "$project_dir/tests/verificar_logs.py" --file "$result_dir/tsim.log" --case "$case_name" --engine tsim > "$result_dir/verification.txt" 2>&1; then
+    roll_check=""
+    if [ "$case_name" = "P2-2" ]; then roll_check="--p2-2-roll"; fi
+    if python3 "$project_dir/tests/verificar_logs.py" $roll_check --file "$result_dir/tsim.log" --case "$case_name" --engine tsim > "$result_dir/verification.txt" 2>&1; then
         cat "$result_dir/verification.txt"
         echo "Registro completo: comprobaciones automaticas superadas."
     else
