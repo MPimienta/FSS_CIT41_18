@@ -40,13 +40,22 @@ ni se convierte automaticamente al ejecutar. Cada muestra representa 100 ms.
 | Escenario | Evidencia en VM/TSIM | Validacion local del 13-10-2026 |
 | --- | --- | --- |
 | P2-1 | 18/18; entradas y 23 hashes originales conservados | 18/18, GNAT nativo |
-| P2-2 roll-v2 | PENDIENTE de nueva ejecucion; el 21/21 anterior era sin roll | 32/32, GNAT nativo |
+| P2-2 roll-v2 | 32/32 en TSIM (13-10-2026); dos observaciones temporales | 32/32, GNAT nativo |
 | P2-3 | 20/20; entradas y 23 hashes originales conservados | 20/20, GNAT nativo |
 
 La validacion local usa un adaptador para UART, interrupciones y workload.
 Comprueba funcionalidad; sus tiempos no certifican plazos en ERC32.
 `tests/evidencias/P2-2/originales/` conserva la prueba anterior, sin roll.
 `tests/evidencias/P2-2/roll-v2-host/` contiene la nueva prueba local.
+`tests/evidencias/P2-2/roll-v2-tsim/` contiene la nueva ejecucion de la VM,
+sus registros originales, 23 hashes de fuentes coincidentes y `revision.json`.
+Se contrastan 350 muestras de actitud y 234 de velocidad durante 70 s.
+Las 32 comprobaciones automaticas pasan. La revision adicional detecta dos
+inversiones de sellos de tiempo (1.137804 y 2.391204 ms), documentadas en
+`tests/evidencias/P2-2/roll-v2-tsim/LEEME.txt`: funcionalidad validada con
+observaciones; precision temporal fina pendiente de aclarar. No es una
+demostracion general de WCET. El estado PENDING de los metadatos originales
+del paquete y de la prueba host describe el momento anterior a esta ejecucion.
 No se presenta el antiguo 21/21 como evidencia del escenario ampliado.
 
 El lanzador exige las comprobaciones nuevas para P2-2. Para comprobar un log
