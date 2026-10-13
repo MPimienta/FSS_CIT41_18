@@ -1,0 +1,17 @@
+sparc-ork-gnatmake main -cargs -g -gnata -largs -k -specs ork_specs -mcpu=cypress
+sparc-ork-gcc -c -g -gnata main.adb
+sparc-ork-gcc -c -g -gnata fss.adb
+sparc-ork-gcc -c -g -gnata button_interrupt.adb
+sparc-ork-gcc -c -g -gnata devicesfss_v1.adb
+sparc-ork-gcc -c -g -gnata fss_config.ads
+sparc-ork-gcc -c -g -gnata fss_rules.adb
+sparc-ork-gcc -c -g -gnata fss_trace.adb
+sparc-ork-gcc -c -g -gnata mode_interrupt.adb
+sparc-ork-gcc -c -g -gnata tools.adb
+sparc-ork-gcc -c -g -gnata force_external_interrupt_2.adb
+sparc-ork-gcc -c -g -gnata testing_1.ads
+sparc-ork-gcc -c -g -gnata workload.adb
+sparc-ork-gnatbind -x main.ali
+sparc-ork-gnatlink -k -specs ork_specs -mcpu=cypress main.ali
+   text	   data	    bss	    dec	    hex	filename
+ 252448	  25924	3096524	3374896	 337f30	main
