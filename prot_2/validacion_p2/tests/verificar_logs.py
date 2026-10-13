@@ -17,7 +17,7 @@ def events(file):
         out.append(e)
     return out
 
-def analyze(code,engine='host',file=None):
+def analyze(code,engine='host',file=None,p2_2_roll=False):
     file=Path(file) if file else LOG/f'{code}_{engine}.log'
     es=sorted(events(file),key=lambda e:e['time']); checks=[]
     def ck(label,ok,detail=''): checks.append(dict(check=label,passed=bool(ok),detail=detail))
@@ -61,6 +61,34 @@ def analyze(code,engine='host',file=None):
         ck('Proteccion superior observada',bool(highs) and all(e['pitch']==0 for e in highs))
         ck('Recuperacion desde limite inferior',any(e['alt']<=2000 and e['pitch']>0 for e in pos))
         ck('Recuperacion desde limite superior',any(e['alt']>=10000 and e['pitch']<0 for e in pos))
+        if p2_2_roll:
+            expected={-90:-45,-45:-45,-30:-30,-3:0,0:0,3:0,30:30,45:45,90:45}
+            ck('Roll segun entrada Y en todas las muestras',bool(pos) and
+               all(e['jy'] in expected and e['roll']==expected[e['jy']] for e in pos))
+            ck('Ordenes de roll coinciden con las muestras',bool(pos) and
+               [e['value'] for e in ro]==[e['roll'] for e in pos])
+            ck('Saturacion de roll positiva y negativa',all(
+               any(e['jy']==y and e['roll']==r for e in pos) for y,r in [(90,45),(-90,-45)]))
+            ck('Banda muerta de roll en ambos extremos',all(
+               any(e['jy']==y and e['roll']==0 for e in pos) for y in [-3,3]))
+            for pitch_sign,label in [(1,'ascenso'),(-1,'descenso')]:
+                ck('Giros a ambos lados durante '+label,all(
+                   any(e['pitch']*pitch_sign>0 and e['roll']*side>0 for e in pos)
+                   for side in [-1,1]))
+            ck('Limite inferior protege pitch sin anular roll',all(
+               any(e['pitch']==0 and e['roll']*side>0 for e in lows) for side in [-1,1]))
+            ck('Limite superior protege pitch sin anular roll',all(
+               any(e['pitch']==0 and e['roll']*side>0 for e in highs) for side in [-1,1]))
+            ck('Regreso a roll cero al final',bool(pos) and
+               all(e['roll']==0 for e in pos if 66.5<e['time']<70) and
+               any(e['time']>69 for e in pos))
+            sd=of('SPEED_DATA')
+            ck('Compensaciones de velocidad durante el escenario mixto',bool(sd) and
+               {600,700,750,800}<={e['target'] for e in sd} and
+               all(e['power']==500 and e['target']==(
+                   800 if e['pitch']>0 and e['roll']!=0 else
+                   750 if e['pitch']>0 else 700 if e['roll']!=0 else 600) for e in sd))
+            ck('Aviso de alabeo visible', 'AVISO ALABEO: mas de 35 grados' in file.read_text(errors='replace'))
     if code=='P2-3':
         pos=of('POSITION_DATA'); vals={e['value'] for e in sp}
         ck('Compensaciones 600 750 700 800', {600,750,700,800}<=vals)
@@ -101,8 +129,11 @@ if __name__=='__main__':
     parser.add_argument('--file',type=Path)
     parser.add_argument('--case',choices=['P2-1','P2-2','P2-3','F-1','F-2','F-3'],default='F-3')
     parser.add_argument('--engine',default='host')
+    parser.add_argument('--p2-2-roll',action='store_true',help='Exigir las pruebas adicionales de P2-2 roll-v2')
     args=parser.parse_args()
-    results=([analyze(args.case,args.engine,args.file)] if args.file else
+    if args.p2_2_roll and (args.case!='P2-2' or not args.file):
+        parser.error('--p2-2-roll requiere --case P2-2 y --file')
+    results=([analyze(args.case,args.engine,args.file,args.p2_2_roll)] if args.file else
              [analyze(code,args.engine) for code in ['P2-1','P2-2','P2-3','F-1','F-2','F-3']])
     destination=args.file.with_suffix('.analysis.json') if args.file else LOG/'results.json'
     destination.write_text(json.dumps(results,indent=2,ensure_ascii=False),encoding='utf-8')
