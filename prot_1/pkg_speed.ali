@@ -1,0 +1,109 @@
+V "GNAT Lib v3.13 "
+A -g
+P LC TF
+R nnvvrnvvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
+
+U pkg_speed%b		pkg_speed.adb		24BB9A95 PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W devicesfss_v1%s	devicesfss_v1.adb	devicesfss_v1.ali  ED
+W pkg_flight_data%s	pkg_flight_data.adb	pkg_flight_data.ali  ED
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W tools%s		tools.adb		tools.ali  ED
+
+U pkg_speed%s		pkg_speed.ads		197EC2D5 PK
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+
+D ada.ads		20261002155301 2359F9ED
+D a-except.ads		20261002155301 287FCF69
+D a-finali.ads		20261002155301 3F32DEEF
+D a-filico.ads		20261002155301 1DECB9AC
+D a-reatim.ads		20261002155301 5DBAB303
+D a-retide.ads		20261002155301 7F3C479C
+D a-stream.ads		20261002155301 5F7C277B
+D a-tags.ads		20261002155301 45EF7E4E
+D devicesfss_v1.ads	20261016221426 76163774
+D kernel.ads		20261002155301 56BBE4F1
+D kernel-cpu_primitives.ads  20261002155301 5746D7AD
+D kernel-interrupts.ads	20261002155301 72CD7AA3
+D kernel-parameters.ads	20261002155301 0D1B8F78
+D kernel-peripherals.ads  20261002155301 089544EF
+D kernel-threads.ads	20261002155301 234DAE87
+D kernel-time.ads	20261002155301 7A57ECF4
+D pkg_flight_data.ads	20261016221426 0908E38A
+D pkg_speed.ads		20261016223122 339B782B
+D pkg_speed.adb		20261016223917 752EA3A4
+D system.ads		20261002155301 2AE5BAFE
+D s-exctab.ads		20261002155301 7A25F5F9
+D s-finimp.ads		20261002155301 1C201C0F
+D s-finroo.ads		20261002155301 166D4EDA
+D s-osinte.ads		20261002155301 7BFC1094
+D s-parame.ads		20261002155301 25FE086A
+D s-secsta.ads		20261002155301 60A2A5CD
+D s-soflin.ads		20261002155301 006B24D7
+D s-stache.ads		20261002155301 42B57F2A
+D s-stalib.ads		20261002155301 438B3864
+D s-stoele.ads		20261002155301 131D4539
+D s-stratt.ads		20261002155301 1761725B
+D s-tasinf.ads		20261002155301 0F7BBEC5
+D s-taspri.ads		20261002155301 3235B2AC
+D s-taprop.ads		20261002155301 36F12025
+D s-taskin.ads		20261002155301 09146F23
+D s-taprob.ads		20261002155301 1D5668B3
+D s-tasres.ads		20261002155301 62B4C0AB
+D s-tarest.ads		20261002155301 1D177686
+D s-unstyp.ads		20261002155301 78AFB91D
+D tools.ads		20261016221426 40AA26E7
+D unchconv.ads		20261002155301 72DC4539
+X 1 ada.ads
+18U9*Ada 19|1r6 1r25
+X 5 a-reatim.ads
+43U13*Real_Time 19|1r10 1r29
+45O9*Time 19|18r28
+50O9*Time_Span 19|19r19
+57U13*Clock 19|21r29
+59U13*"+" 19|21r35 67r51
+89U13*Milliseconds 19|19r32
+X 9 devicesfss_v1.ads
+4U9*devicesFSS_V1 19|3r6 3r25
+31I10*Speed_Samples_Type 19|16r23 61r25
+34U15*Set_Speed 19|63r10
+39I10*Pitch_Samples_Type 19|9r23
+44I10*Roll_Samples_Type 19|10r23
+54I10*Power_Samples_Type 19|8r23
+55U15*Read_Power 19|25r10
+80N27*On 19|50r22
+80N31*Off 19|52r22
+82U15*Light_2 19|50r13 52r13
+X 17 pkg_flight_data.ads
+4U9*Pkg_Flight_Data 19|4r6 4r27
+5w15*Flight_Data 19|26r27 27r27
+8U18 Read_Pitch_Protected 19|26r39
+9U18 Read_Roll_Protected 19|27r39
+X 18 pkg_speed.ads
+3U9*Pkg_Speed 19|6b14
+4t9*Speed
+X 19 pkg_speed.adb
+8i7 Current_Power 25m22 29r24
+9i7 Current_Pitch 26m10 39r13 41r16
+10i7 Current_Roll 27m10 39r35 43r16
+12i7 P 29m10 30r13 31m13 32r16 33m13 36r25
+13i7 Base_Speed 36m10 47r26
+14i7 Extra_Speed 38m10 40m13 42m13 44m13 47r39
+15i7 Target_Speed 47m10 49r13 49r36 55r13 56m13 57r16 58m13 61r45
+16i7 Final_Speed 61m10 63r21
+18O7 Siguiente_Instante 21m7 66r22 67m10 67r32
+19O7 Intervalo 21r37 67r53
+X 20 system.ads
+46U9*System 18|1r6 1r18
+X 40 tools.ads
+6U9*tools 19|2r6 2r17
+15U15*Start_Activity 19|23r10
+16U15*Finish_Activity 19|65r10
+

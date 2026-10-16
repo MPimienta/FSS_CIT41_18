@@ -15,6 +15,7 @@ with Tools; use Tools;
 with devicesFSS_V1; use devicesFSS_V1;
 
 with Pkg_Position_Altitude;
+with Pkg_Speed;
 
 -- NO ACTIVAR ESTE PAQUETE MIENTRAS NO SE TENGA PROGRAMADA LA INTERRUPCION
 -- Packages needed to generate button interrupts       

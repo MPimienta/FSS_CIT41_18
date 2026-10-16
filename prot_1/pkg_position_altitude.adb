@@ -87,7 +87,7 @@ Package body Pkg_Position_Altitude is
             Display_Pitch (Aircraft_Pitch);     -- muestra por display la posición de la aeronave  
             Display_Roll (Aircraft_Roll);
 
-            Finish_Activity ("Task Altitud");   
+            Finish_Activity ("Task Position_Altitude Ended");   
             delay until Siguiente_Instante;
             Siguiente_Instante := Siguiente_Instante + Intervalo;
         end loop;
