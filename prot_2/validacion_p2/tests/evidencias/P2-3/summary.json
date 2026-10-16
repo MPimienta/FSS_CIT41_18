@@ -1,0 +1,261 @@
+{
+  "case": "P2-3",
+  "engine": "TSIM/ERC32 1.0.10",
+  "source": "User-supplied P2-3.qeyzAW.zip, received 2026-09-29",
+  "sha256": "3e71573e4773e81661935e4adc90aeb7d80f298cc768a735e41b59f823350ff2",
+  "detailed_window_seconds": 20,
+  "job_counts": {
+    "POSITION": 100,
+    "SPEED": 67
+  },
+  "completion_counts": {
+    "POSITION": 100,
+    "SPEED": 67
+  },
+  "task_response_max_ms": {
+    "POSITION": 46.292,
+    "SPEED": 64.4315
+  },
+  "trace_summary": {
+    "time": 36.7122175,
+    "kind": "TRACE_SUMMARY",
+    "window": 20.0,
+    "lost": 0,
+    "live_lost": 0,
+    "clipped": 0,
+    "max_live_output_age": 0.0919777
+  },
+  "build_log_received": true,
+  "source_manifest_received": true,
+  "source_comparison": {
+    "manifest_count": 23,
+    "expected_count": 23,
+    "missing": [],
+    "extra": [],
+    "mismatches": [],
+    "scenario_files_match": {
+      "fss_config.ads": true,
+      "testing_1.ads": true
+    }
+  },
+  "memory": {
+    "text_bytes": 252336,
+    "data_bytes": 11924,
+    "bss_bytes": 3082476,
+    "static_total_bytes": 3346736,
+    "simulated_ram_bytes": 4194304,
+    "remaining_after_static_bytes": 847568
+  },
+  "result": {
+    "code": "P2-3",
+    "engine": "tsim",
+    "events": 769,
+    "checks": [
+      {
+        "check": "La aplicacion produce trazas",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin excepciones Ada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Ventana de captura completa",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin perdida ni truncamiento de salida",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Salida visible sin atraso de un periodo de display",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin OVERRUN en la ventana observada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Velocidad de salida entre 300 y 1000",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Pitch limitado a +/-30",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Roll limitado a +/-45",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Releases absolutos POSITION",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin activaciones perdidas POSITION",
+        "passed": true,
+        "detail": "100/100"
+      },
+      {
+        "check": "Todas las activaciones completadas POSITION",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Respuesta dentro del periodo POSITION",
+        "passed": true,
+        "detail": "max_ms=46.292"
+      },
+      {
+        "check": "Releases absolutos SPEED",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin activaciones perdidas SPEED",
+        "passed": true,
+        "detail": "67/67"
+      },
+      {
+        "check": "Todas las activaciones completadas SPEED",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Respuesta dentro del periodo SPEED",
+        "passed": true,
+        "detail": "max_ms=64.431"
+      },
+      {
+        "check": "Compensaciones 600 750 700 800",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Banda muerta inclusiva",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Saturacion negativa",
+        "passed": true,
+        "detail": ""
+      }
+    ],
+    "passed": 20,
+    "total": 20,
+    "timing": {
+      "overruns": 0,
+      "max_evasion_response_ms": 0,
+      "max_end_lateness_ms": 0
+    }
+  },
+  "additional_review": {
+    "position_samples_checked": 100,
+    "speed_samples_checked": 67,
+    "all_samples_match_inputs_actuators_and_warnings": true,
+    "roll_warning_messages_in_window": 15,
+    "position_groups": [
+      {
+        "jx": -90,
+        "jy": -90,
+        "pitch": -30,
+        "roll": -45,
+        "count": 15
+      },
+      {
+        "jx": 0,
+        "jy": 0,
+        "pitch": 0,
+        "roll": 0,
+        "count": 30
+      },
+      {
+        "jx": 0,
+        "jy": 30,
+        "pitch": 0,
+        "roll": 30,
+        "count": 15
+      },
+      {
+        "jx": 3,
+        "jy": -3,
+        "pitch": 0,
+        "roll": 0,
+        "count": 10
+      },
+      {
+        "jx": 20,
+        "jy": 0,
+        "pitch": 20,
+        "roll": 0,
+        "count": 15
+      },
+      {
+        "jx": 20,
+        "jy": 30,
+        "pitch": 20,
+        "roll": 30,
+        "count": 15
+      }
+    ],
+    "speed_groups": [
+      {
+        "power": 500,
+        "pitch": -30,
+        "roll": -45,
+        "target": 700,
+        "warning": "FALSE",
+        "count": 10
+      },
+      {
+        "power": 500,
+        "pitch": 0,
+        "roll": 0,
+        "target": 600,
+        "warning": "FALSE",
+        "count": 27
+      },
+      {
+        "power": 500,
+        "pitch": 0,
+        "roll": 30,
+        "target": 700,
+        "warning": "FALSE",
+        "count": 10
+      },
+      {
+        "power": 500,
+        "pitch": 20,
+        "roll": 0,
+        "target": 750,
+        "warning": "FALSE",
+        "count": 10
+      },
+      {
+        "power": 500,
+        "pitch": 20,
+        "roll": 30,
+        "target": 800,
+        "warning": "FALSE",
+        "count": 10
+      }
+    ]
+  },
+  "limitations": [
+    "Detailed timing evidence covers the first 20 seconds; later live output does not establish every deadline.",
+    "Observed response maxima and ELF static sizes are not certified WCET or maximum stack/heap usage.",
+    "This scenario observes negative angle saturation (-90,-90 to -30,-45), deadband input (3,-3), and ordinary positive inputs; it does not independently exercise positive saturation in both axes.",
+    "Log shows normal simulator exit but no overflow marker; the final simulated time cannot be inferred from the last live output timestamp."
+  ]
+}

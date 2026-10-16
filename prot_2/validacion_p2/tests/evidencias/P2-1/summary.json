@@ -1,0 +1,208 @@
+{
+  "case": "P2-1",
+  "engine": "TSIM/ERC32 1.0.10",
+  "source": "User-supplied FSS-resultados.zip/P2-1.8ntfll, received 2026-09-29",
+  "sha256": "25d4bbbe4daa98ebe57738de673324a7acb8e6e8e064484dc1c2b1c5b7e7f48f",
+  "detailed_window_seconds": 20,
+  "job_counts": {
+    "POSITION": 100,
+    "SPEED": 67
+  },
+  "completion_counts": {
+    "POSITION": 100,
+    "SPEED": 67
+  },
+  "task_response_max_ms": {
+    "POSITION": 46.292,
+    "SPEED": 64.3908
+  },
+  "trace_summary": {
+    "time": 34.6854429,
+    "kind": "TRACE_SUMMARY",
+    "window": 20.0,
+    "lost": 0,
+    "live_lost": 0,
+    "clipped": 0,
+    "max_live_output_age": 0.0563605
+  },
+  "build_log_received": true,
+  "source_manifest_received": true,
+  "source_comparison": {
+    "manifest_count": 23,
+    "expected_count": 23,
+    "missing": [],
+    "extra": [],
+    "mismatches": [],
+    "scenario_files_match": {
+      "fss_config.ads": true,
+      "testing_1.ads": true
+    }
+  },
+  "memory": {
+    "text_bytes": 252336,
+    "data_bytes": 11924,
+    "bss_bytes": 3082476,
+    "static_total_bytes": 3346736,
+    "simulated_ram_bytes": 4194304,
+    "remaining_after_static_bytes": 847568
+  },
+  "result": {
+    "code": "P2-1",
+    "engine": "tsim",
+    "events": 769,
+    "checks": [
+      {
+        "check": "La aplicacion produce trazas",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin excepciones Ada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Ventana de captura completa",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin perdida ni truncamiento de salida",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Salida visible sin atraso de un periodo de display",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin OVERRUN en la ventana observada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Velocidad de salida entre 300 y 1000",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Pitch limitado a +/-30",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Roll limitado a +/-45",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Releases absolutos POSITION",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin activaciones perdidas POSITION",
+        "passed": true,
+        "detail": "100/100"
+      },
+      {
+        "check": "Todas las activaciones completadas POSITION",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Respuesta dentro del periodo POSITION",
+        "passed": true,
+        "detail": "max_ms=46.292"
+      },
+      {
+        "check": "Releases absolutos SPEED",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin activaciones perdidas SPEED",
+        "passed": true,
+        "detail": "67/67"
+      },
+      {
+        "check": "Todas las activaciones completadas SPEED",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Respuesta dentro del periodo SPEED",
+        "passed": true,
+        "detail": "max_ms=64.391"
+      },
+      {
+        "check": "Minimo maximo y velocidad intermedia",
+        "passed": true,
+        "detail": ""
+      }
+    ],
+    "passed": 18,
+    "total": 18,
+    "timing": {
+      "overruns": 0,
+      "max_evasion_response_ms": 0,
+      "max_end_lateness_ms": 0
+    }
+  },
+  "additional_review": {
+    "speed_samples_checked": 67,
+    "all_samples_match_inputs_and_expected_speed_and_warning": true,
+    "speed_groups": [
+      {
+        "power": 0,
+        "target": 300,
+        "warning": "TRUE",
+        "count": 23
+      },
+      {
+        "power": 250,
+        "target": 300,
+        "warning": "TRUE",
+        "count": 10
+      },
+      {
+        "power": 500,
+        "target": 600,
+        "warning": "FALSE",
+        "count": 14
+      },
+      {
+        "power": 833,
+        "target": 1000,
+        "warning": "TRUE",
+        "count": 10
+      },
+      {
+        "power": 1023,
+        "target": 1000,
+        "warning": "TRUE",
+        "count": 10
+      }
+    ],
+    "light2_transitions": [
+      {
+        "time": 0.0595629,
+        "on": true
+      },
+      {
+        "time": 12.045027,
+        "on": false
+      },
+      {
+        "time": 16.2447768,
+        "on": true
+      }
+    ]
+  },
+  "limitations": [
+    "Detailed timing evidence covers the first 20 seconds; later simulation output does not establish every deadline.",
+    "Observed response maxima and ELF static sizes are not certified WCET or maximum stack/heap usage.",
+    "This scenario covers speed limits at level attitude; climb/roll compensation is exercised by P2-3."
+  ]
+}

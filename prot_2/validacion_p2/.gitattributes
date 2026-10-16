@@ -1,0 +1,13 @@
+*.adb text eol=lf
+*.ads text eol=lf
+*.adc text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+Makefile text eol=lf
+src/*.adb -text
+src/*.ads -text
+src/gnat.adc -text
+src/Makefile -text
+tests/P2-*/** -text
+tests/evidencias/** -text

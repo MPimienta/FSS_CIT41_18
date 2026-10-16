@@ -1,0 +1,57 @@
+{
+  "run_id": "P2-2-ROLL.OmwpfU",
+  "original_zip_sha256": "edc84ab866750ae8746fa3ea934954f2351c582f1d4ad890a1535011ee1b206c",
+  "files": [
+    {
+      "name": "build.log",
+      "sha256": "cafc1d61a54234e2be779ce977299932c02c254bebc306595ef9cb4f8dc9f8e2",
+      "uploaded": true
+    },
+    {
+      "name": "estado.txt",
+      "sha256": "edcbedb822728cf52b1b288235209a73349811d4ee3a03b85167b01d9b477692",
+      "uploaded": true
+    },
+    {
+      "name": "fss_config.ads",
+      "sha256": "e2a78726a21f9e19f49021249d7c5f058282755bbada67e5ed98ec49915787cf",
+      "uploaded": true
+    },
+    {
+      "name": "PAQUETE.json",
+      "sha256": "64517bd7e61074850f2797524eeb46c69e9f1003f0a0fd4a4118de2ad858d69f",
+      "uploaded": true
+    },
+    {
+      "name": "paquete.sha256",
+      "sha256": "17009cf36c201cd5ca13d991e07e99f3b167875b6bcffa89a13710f1a8f5216f",
+      "uploaded": false,
+      "reason": "El manifiesto de empaquetado referencia una guia con nombre en chino. Se conserva su hash, sin publicar ni modificar el archivo original."
+    },
+    {
+      "name": "sources.sha256",
+      "sha256": "438a80be2b320609a0fd1961f71d4de7b41ca613fc5782df2ea13bb59e9b2d1d",
+      "uploaded": true
+    },
+    {
+      "name": "testing_1.ads",
+      "sha256": "cb798148a22c45c08556385fdb3f4af89f1ccb01cb28ec9b67d3dd81560f81bf",
+      "uploaded": true
+    },
+    {
+      "name": "tsim.analysis.json",
+      "sha256": "d37a4bd0953596581319ffdeb8a77949a70572d24d2659bf8b5f8073d647674d",
+      "uploaded": true
+    },
+    {
+      "name": "tsim.log",
+      "sha256": "26ab3ab329d98acf26bd2258a426c508de8dab1c2338030fd95266f66bba2cb5",
+      "uploaded": true
+    },
+    {
+      "name": "verification.txt",
+      "sha256": "1f44f25fa163ed9a867fdc32f1fb3e06ddf0f4458fbaa43f3a67aaa20c188e41",
+      "uploaded": true
+    }
+  ]
+}

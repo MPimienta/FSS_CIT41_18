@@ -1,0 +1,51 @@
+P2-2 roll-v2: validacion en la VM de STR, 13-10-2026
+
+Ejecucion: P2-2-ROLL.OmwpfU. TSIM/ERC32 1.0.10.
+Fuentes de PR #4: c489c913a86a5d7ef3e1adaf09389996c93f1283.
+Resultado: 32/32 comprobaciones automaticas superadas; revision funcional
+superada con dos observaciones sobre el orden de los sellos de tiempo.
+
+La ventana detallada cubre 70 s: 350/350 activaciones POSITION y 234/234
+activaciones SPEED, con todas las salidas de actitud y velocidad contrastadas.
+Los 18 tramos de entrada Y son correctos, incluidos giros en ambos sentidos,
+saturacion a +/-45, banda muerta +/-3, proteccion de altitud que conserva el
+roll y vuelta a cero. Las velocidades observadas son 600/700/750/800 km/h.
+Los 130 avisos de alabeo de la ventana corresponden a sus ciclos POSITION.
+Los mensajes de dispositivo continuan despues de 70 s; el log completo
+contiene 260 avisos. TRACE_SUMMARY se imprime a los 138.511769800 s al acabar
+de vaciar el buffer de trazas. La ejecucion termina normalmente.
+
+Respuestas maximas declaradas por el log: POSITION 54.6375 ms (periodo 200 ms),
+SPEED 72.801 ms (periodo 300 ms). No se detectan excepciones, OVERRUN,
+activaciones perdidas, registros perdidos ni truncados en las comprobaciones.
+Altitud muestreada: 2000-10040 m. La proteccion bloquea el pitch hacia fuera
+del intervalo tras detectar el limite; no demuestra ausencia de sobrepaso.
+
+OBSERVACIONES TEMPORALES, TODAVIA SIN CAUSA DETERMINADA
+1. SPEED_DATA a 27.916233904 s precede en la secuencia de registros a DONE
+   con sello 27.915096100 s: inversion de 1.137804 ms.
+2. POSITION_DATA tiene sello 55.832937904 s, pero el aviso de alabeo que se
+   emite despues lleva 55.830546700 s: inversion de 2.391204 ms. Ambos estan
+   dentro del mismo ciclo POSITION.
+Estos casos no alteran los valores de control contrastados. El verificador
+automatico no comprueba este orden temporal adicional. No se certifica la
+precision submilisegundo de las trazas ni se ofrece una demostracion de WCET.
+
+TRAZABILIDAD
+originales/ conserva byte a byte los registros publicados de la VM. Los 23
+hashes de sources.sha256 coinciden con las fuentes del commit indicado,
+seleccionando tests/P2-2/testing_2_2.ads como testing_1.ads y su configuracion.
+PAQUETE.json conserva el estado PENDING que existia al preparar el paquete;
+el resultado posterior de esta ejecucion figura en revision.json.
+inventario.json registra todos los archivos recibidos y la unica omision:
+paquete.sha256 contiene una referencia a una guia cuyo nombre esta en chino.
+No se publica el ZIP original por contener ese manifiesto. Su hash queda
+registrado. Los originales locales no se han modificado.
+MANIFEST.sha256 permite verificar los archivos publicados de esta carpeta.
+
+REPETIR LAS COMPROBACIONES AUTOMATICAS
+Desde prot_2/validacion_p2:
+python3 tests/verificar_logs.py --file tests/evidencias/P2-2/roll-v2-tsim/originales/tsim.log --case P2-2 --engine tsim --p2-2-roll
+
+Alcance: contribucion prot_2/validacion_p2. Esta ejecucion no valida una
+integracion distinta con los ficheros del directorio prot_2 padre.

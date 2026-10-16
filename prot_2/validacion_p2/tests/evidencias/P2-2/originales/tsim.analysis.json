@@ -1,0 +1,121 @@
+[
+  {
+    "code": "P2-2",
+    "engine": "tsim",
+    "events": 2687,
+    "checks": [
+      {
+        "check": "La aplicacion produce trazas",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin excepciones Ada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Ventana de captura completa",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin perdida ni truncamiento de salida",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Salida visible sin atraso de un periodo de display",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin OVERRUN en la ventana observada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Velocidad de salida entre 300 y 1000",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Pitch limitado a +/-30",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Roll limitado a +/-45",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Releases absolutos POSITION",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin activaciones perdidas POSITION",
+        "passed": true,
+        "detail": "350/350"
+      },
+      {
+        "check": "Todas las activaciones completadas POSITION",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Respuesta dentro del periodo POSITION",
+        "passed": true,
+        "detail": "max_ms=54.637"
+      },
+      {
+        "check": "Releases absolutos SPEED",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin activaciones perdidas SPEED",
+        "passed": true,
+        "detail": "234/234"
+      },
+      {
+        "check": "Todas las activaciones completadas SPEED",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Respuesta dentro del periodo SPEED",
+        "passed": true,
+        "detail": "max_ms=72.801"
+      },
+      {
+        "check": "Proteccion inferior observada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Proteccion superior observada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Recuperacion desde limite inferior",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Recuperacion desde limite superior",
+        "passed": true,
+        "detail": ""
+      }
+    ],
+    "passed": 21,
+    "total": 21,
+    "timing": {
+      "overruns": 0,
+      "max_evasion_response_ms": 0,
+      "max_end_lateness_ms": 0
+    }
+  }
+]
