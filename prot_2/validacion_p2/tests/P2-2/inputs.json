@@ -1,7 +1,7 @@
 {
   "id": 2,
   "code": "P2-2",
-  "name": "Altitud y recuperacion",
+  "name": "Altitud, recuperacion y roll combinado",
   "seconds": 70,
   "prototype": 2,
   "sample_ms": 100,
@@ -369,7 +369,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -378,7 +378,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -387,7 +387,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -396,7 +396,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -405,7 +405,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -414,7 +414,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -423,7 +423,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -432,7 +432,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -441,7 +441,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -450,7 +450,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -459,7 +459,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -468,7 +468,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -477,7 +477,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -486,7 +486,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -495,7 +495,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -504,7 +504,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -513,7 +513,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -522,7 +522,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -531,7 +531,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -540,7 +540,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -549,7 +549,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -558,7 +558,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -567,7 +567,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -576,7 +576,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -585,7 +585,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -594,7 +594,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -603,7 +603,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -612,7 +612,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -621,7 +621,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -630,7 +630,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -639,7 +639,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -648,7 +648,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -657,7 +657,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -666,7 +666,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -675,7 +675,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -684,7 +684,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -693,7 +693,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -702,7 +702,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -711,7 +711,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -720,7 +720,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -729,7 +729,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -738,7 +738,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -747,7 +747,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -756,7 +756,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -765,7 +765,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -774,7 +774,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -783,7 +783,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -792,7 +792,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -801,7 +801,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -810,7 +810,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -819,7 +819,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -828,7 +828,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -837,7 +837,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -846,7 +846,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -855,7 +855,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -864,7 +864,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -873,7 +873,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -882,7 +882,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -891,7 +891,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -900,7 +900,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -909,7 +909,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -918,7 +918,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -927,7 +927,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -936,7 +936,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -945,7 +945,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -954,7 +954,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -963,7 +963,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -972,7 +972,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -981,7 +981,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -990,7 +990,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -999,7 +999,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1008,7 +1008,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1017,7 +1017,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1026,7 +1026,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1035,7 +1035,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1044,7 +1044,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1053,7 +1053,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1062,7 +1062,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1071,7 +1071,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1080,7 +1080,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1089,7 +1089,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1098,7 +1098,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1107,7 +1107,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1116,7 +1116,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1125,7 +1125,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1134,7 +1134,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1143,7 +1143,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1152,7 +1152,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1161,7 +1161,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1170,7 +1170,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1179,7 +1179,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1188,7 +1188,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1197,7 +1197,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1206,7 +1206,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1215,7 +1215,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1224,7 +1224,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1233,7 +1233,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1242,7 +1242,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1251,7 +1251,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1260,7 +1260,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1269,7 +1269,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1278,7 +1278,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1287,7 +1287,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1296,7 +1296,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1305,7 +1305,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1314,7 +1314,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1323,7 +1323,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1332,7 +1332,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1341,7 +1341,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1350,7 +1350,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1359,7 +1359,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1368,7 +1368,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1377,7 +1377,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1386,7 +1386,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1395,7 +1395,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1404,7 +1404,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1413,7 +1413,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1422,7 +1422,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1431,7 +1431,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1440,7 +1440,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1449,7 +1449,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1458,7 +1458,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1467,7 +1467,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1476,7 +1476,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1485,7 +1485,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1494,7 +1494,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1503,7 +1503,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1512,7 +1512,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1521,7 +1521,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1530,7 +1530,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1539,7 +1539,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1548,7 +1548,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1557,7 +1557,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1566,7 +1566,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1575,7 +1575,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1584,7 +1584,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1593,7 +1593,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1602,7 +1602,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1611,7 +1611,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1620,7 +1620,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1629,7 +1629,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1638,7 +1638,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1647,7 +1647,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1656,7 +1656,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1665,7 +1665,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1674,7 +1674,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1683,7 +1683,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1692,7 +1692,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1701,7 +1701,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1710,7 +1710,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1719,7 +1719,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1728,7 +1728,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1737,7 +1737,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1746,7 +1746,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1755,7 +1755,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1764,7 +1764,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1773,7 +1773,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1782,7 +1782,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1791,7 +1791,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1800,7 +1800,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1809,7 +1809,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1818,7 +1818,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1827,7 +1827,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1836,7 +1836,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1845,7 +1845,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1854,7 +1854,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1863,7 +1863,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1872,7 +1872,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1881,7 +1881,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1890,7 +1890,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1899,7 +1899,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1908,7 +1908,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1917,7 +1917,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1926,7 +1926,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1935,7 +1935,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1944,7 +1944,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1953,7 +1953,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1962,7 +1962,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1971,7 +1971,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1980,7 +1980,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1989,7 +1989,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -1998,7 +1998,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2007,7 +2007,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2016,7 +2016,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2025,7 +2025,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2034,7 +2034,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2043,7 +2043,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2052,7 +2052,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2061,7 +2061,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2070,7 +2070,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2079,7 +2079,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2088,7 +2088,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2097,7 +2097,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2106,7 +2106,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2115,7 +2115,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2124,7 +2124,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2133,7 +2133,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2142,7 +2142,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2151,7 +2151,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2160,7 +2160,7 @@
     {
       "power": 500,
       "jx": -90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2169,7 +2169,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2178,7 +2178,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2187,7 +2187,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2196,7 +2196,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2205,7 +2205,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2214,7 +2214,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2223,7 +2223,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2232,7 +2232,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2241,7 +2241,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2250,7 +2250,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2259,7 +2259,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2268,7 +2268,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2277,7 +2277,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2286,7 +2286,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2295,7 +2295,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2304,7 +2304,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2313,7 +2313,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2322,7 +2322,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2331,7 +2331,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2340,7 +2340,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2349,7 +2349,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2358,7 +2358,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2367,7 +2367,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2376,7 +2376,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2385,7 +2385,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2394,7 +2394,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2403,7 +2403,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2412,7 +2412,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2421,7 +2421,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2430,7 +2430,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2439,7 +2439,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2448,7 +2448,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2457,7 +2457,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2466,7 +2466,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2475,7 +2475,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2484,7 +2484,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2493,7 +2493,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2502,7 +2502,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2511,7 +2511,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2520,7 +2520,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2529,7 +2529,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2538,7 +2538,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2547,7 +2547,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2556,7 +2556,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2565,7 +2565,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2574,7 +2574,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2583,7 +2583,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2592,7 +2592,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2601,7 +2601,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2610,7 +2610,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2619,7 +2619,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2628,7 +2628,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2637,7 +2637,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2646,7 +2646,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2655,7 +2655,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2664,7 +2664,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2673,7 +2673,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2682,7 +2682,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2691,7 +2691,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2700,7 +2700,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2709,7 +2709,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2718,7 +2718,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2727,7 +2727,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2736,7 +2736,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2745,7 +2745,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2754,7 +2754,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2763,7 +2763,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2772,7 +2772,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2781,7 +2781,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2790,7 +2790,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2799,7 +2799,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2808,7 +2808,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2817,7 +2817,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2826,7 +2826,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2835,7 +2835,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2844,7 +2844,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2853,7 +2853,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2862,7 +2862,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2871,7 +2871,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2880,7 +2880,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2889,7 +2889,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2898,7 +2898,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2907,7 +2907,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2916,7 +2916,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2925,7 +2925,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2934,7 +2934,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2943,7 +2943,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2952,7 +2952,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2961,7 +2961,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2970,7 +2970,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2979,7 +2979,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2988,7 +2988,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -2997,7 +2997,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3006,7 +3006,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3015,7 +3015,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3024,7 +3024,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3033,7 +3033,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3042,7 +3042,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3051,7 +3051,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3060,7 +3060,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3069,7 +3069,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3078,7 +3078,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3087,7 +3087,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3096,7 +3096,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3105,7 +3105,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3114,7 +3114,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3123,7 +3123,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3132,7 +3132,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3141,7 +3141,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3150,7 +3150,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3159,7 +3159,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3168,7 +3168,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3177,7 +3177,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3186,7 +3186,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3195,7 +3195,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3204,7 +3204,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3213,7 +3213,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3222,7 +3222,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3231,7 +3231,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3240,7 +3240,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3249,7 +3249,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3258,7 +3258,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3267,7 +3267,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3276,7 +3276,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3285,7 +3285,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3294,7 +3294,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3303,7 +3303,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3312,7 +3312,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3321,7 +3321,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3330,7 +3330,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3339,7 +3339,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3348,7 +3348,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3357,7 +3357,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3366,7 +3366,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3375,7 +3375,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3384,7 +3384,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3393,7 +3393,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3402,7 +3402,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3411,7 +3411,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3420,7 +3420,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3429,7 +3429,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3438,7 +3438,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3447,7 +3447,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3456,7 +3456,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3465,7 +3465,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3474,7 +3474,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3483,7 +3483,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3492,7 +3492,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3501,7 +3501,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3510,7 +3510,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3519,7 +3519,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3528,7 +3528,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3537,7 +3537,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3546,7 +3546,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3555,7 +3555,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3564,7 +3564,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3573,7 +3573,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3582,7 +3582,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3591,7 +3591,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3600,7 +3600,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3609,7 +3609,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3618,7 +3618,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3627,7 +3627,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3636,7 +3636,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3645,7 +3645,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3654,7 +3654,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3663,7 +3663,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3672,7 +3672,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3681,7 +3681,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3690,7 +3690,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3699,7 +3699,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3708,7 +3708,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3717,7 +3717,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3726,7 +3726,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3735,7 +3735,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3744,7 +3744,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3753,7 +3753,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3762,7 +3762,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3771,7 +3771,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3780,7 +3780,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3789,7 +3789,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3798,7 +3798,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3807,7 +3807,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3816,7 +3816,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3825,7 +3825,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3834,7 +3834,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3843,7 +3843,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3852,7 +3852,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3861,7 +3861,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3870,7 +3870,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3879,7 +3879,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3888,7 +3888,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3897,7 +3897,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3906,7 +3906,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3915,7 +3915,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3924,7 +3924,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3933,7 +3933,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3942,7 +3942,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3951,7 +3951,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3960,7 +3960,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -3,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3969,7 +3969,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3978,7 +3978,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3987,7 +3987,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -3996,7 +3996,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4005,7 +4005,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4014,7 +4014,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4023,7 +4023,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4032,7 +4032,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4041,7 +4041,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4050,7 +4050,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4059,7 +4059,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4068,7 +4068,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4077,7 +4077,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4086,7 +4086,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4095,7 +4095,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4104,7 +4104,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4113,7 +4113,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4122,7 +4122,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4131,7 +4131,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4140,7 +4140,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4149,7 +4149,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4158,7 +4158,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4167,7 +4167,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4176,7 +4176,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4185,7 +4185,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4194,7 +4194,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4203,7 +4203,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4212,7 +4212,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4221,7 +4221,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4230,7 +4230,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4239,7 +4239,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4248,7 +4248,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4257,7 +4257,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4266,7 +4266,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4275,7 +4275,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4284,7 +4284,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4293,7 +4293,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4302,7 +4302,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4311,7 +4311,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4320,7 +4320,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4329,7 +4329,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4338,7 +4338,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4347,7 +4347,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4356,7 +4356,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4365,7 +4365,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4374,7 +4374,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4383,7 +4383,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4392,7 +4392,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4401,7 +4401,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4410,7 +4410,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4419,7 +4419,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4428,7 +4428,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4437,7 +4437,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4446,7 +4446,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4455,7 +4455,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4464,7 +4464,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4473,7 +4473,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4482,7 +4482,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4491,7 +4491,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4500,7 +4500,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4509,7 +4509,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4518,7 +4518,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4527,7 +4527,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4536,7 +4536,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4545,7 +4545,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4554,7 +4554,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4563,7 +4563,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4572,7 +4572,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4581,7 +4581,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4590,7 +4590,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4599,7 +4599,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4608,7 +4608,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4617,7 +4617,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4626,7 +4626,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4635,7 +4635,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4644,7 +4644,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4653,7 +4653,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4662,7 +4662,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4671,7 +4671,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4680,7 +4680,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -90,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4689,7 +4689,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4698,7 +4698,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4707,7 +4707,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4716,7 +4716,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4725,7 +4725,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4734,7 +4734,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4743,7 +4743,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4752,7 +4752,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4761,7 +4761,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4770,7 +4770,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4779,7 +4779,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4788,7 +4788,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4797,7 +4797,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4806,7 +4806,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4815,7 +4815,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4824,7 +4824,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4833,7 +4833,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4842,7 +4842,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4851,7 +4851,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4860,7 +4860,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4869,7 +4869,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4878,7 +4878,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4887,7 +4887,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4896,7 +4896,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4905,7 +4905,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4914,7 +4914,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4923,7 +4923,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4932,7 +4932,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4941,7 +4941,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4950,7 +4950,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": 45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4959,7 +4959,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4968,7 +4968,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4977,7 +4977,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4986,7 +4986,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -4995,7 +4995,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5004,7 +5004,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5013,7 +5013,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5022,7 +5022,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5031,7 +5031,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5040,7 +5040,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5049,7 +5049,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5058,7 +5058,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5067,7 +5067,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5076,7 +5076,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5085,7 +5085,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5094,7 +5094,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5103,7 +5103,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5112,7 +5112,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5121,7 +5121,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5130,7 +5130,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5139,7 +5139,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5148,7 +5148,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5157,7 +5157,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5166,7 +5166,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5175,7 +5175,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5184,7 +5184,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5193,7 +5193,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5202,7 +5202,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5211,7 +5211,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5220,7 +5220,7 @@
     {
       "power": 500,
       "jx": 90,
-      "jy": 0,
+      "jy": -45,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5229,7 +5229,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5238,7 +5238,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5247,7 +5247,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5256,7 +5256,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5265,7 +5265,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5274,7 +5274,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5283,7 +5283,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5292,7 +5292,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5301,7 +5301,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5310,7 +5310,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5319,7 +5319,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5328,7 +5328,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5337,7 +5337,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5346,7 +5346,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5355,7 +5355,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5364,7 +5364,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5373,7 +5373,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5382,7 +5382,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5391,7 +5391,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5400,7 +5400,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5409,7 +5409,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5418,7 +5418,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5427,7 +5427,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5436,7 +5436,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5445,7 +5445,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5454,7 +5454,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5463,7 +5463,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5472,7 +5472,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5481,7 +5481,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5490,7 +5490,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5499,7 +5499,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5508,7 +5508,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5517,7 +5517,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5526,7 +5526,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5535,7 +5535,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5544,7 +5544,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5553,7 +5553,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5562,7 +5562,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5571,7 +5571,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5580,7 +5580,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": 30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5589,7 +5589,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5598,7 +5598,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5607,7 +5607,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5616,7 +5616,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5625,7 +5625,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5634,7 +5634,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5643,7 +5643,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5652,7 +5652,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5661,7 +5661,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5670,7 +5670,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5679,7 +5679,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5688,7 +5688,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5697,7 +5697,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5706,7 +5706,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5715,7 +5715,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5724,7 +5724,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5733,7 +5733,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5742,7 +5742,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5751,7 +5751,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5760,7 +5760,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5769,7 +5769,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5778,7 +5778,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5787,7 +5787,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5796,7 +5796,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5805,7 +5805,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5814,7 +5814,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5823,7 +5823,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5832,7 +5832,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5841,7 +5841,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5850,7 +5850,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5859,7 +5859,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5868,7 +5868,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5877,7 +5877,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5886,7 +5886,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5895,7 +5895,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5904,7 +5904,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5913,7 +5913,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5922,7 +5922,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5931,7 +5931,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -5940,7 +5940,7 @@
     {
       "power": 500,
       "jx": -15,
-      "jy": 0,
+      "jy": -30,
       "distance": 9000,
       "light": 1000,
       "present": 1,
@@ -6305,6 +6305,99 @@
       "light": 1000,
       "present": 1,
       "button": 0
+    }
+  ],
+  "revision": "roll-v2",
+  "roll_segments": [
+    {
+      "start_s": 0,
+      "end_s": 4,
+      "jy": 0
+    },
+    {
+      "start_s": 4,
+      "end_s": 8,
+      "jy": 30
+    },
+    {
+      "start_s": 8,
+      "end_s": 12,
+      "jy": -30
+    },
+    {
+      "start_s": 12,
+      "end_s": 16,
+      "jy": 90
+    },
+    {
+      "start_s": 16,
+      "end_s": 20,
+      "jy": -90
+    },
+    {
+      "start_s": 20,
+      "end_s": 22,
+      "jy": 45
+    },
+    {
+      "start_s": 22,
+      "end_s": 24,
+      "jy": -45
+    },
+    {
+      "start_s": 24,
+      "end_s": 30,
+      "jy": 30
+    },
+    {
+      "start_s": 30,
+      "end_s": 36,
+      "jy": -30
+    },
+    {
+      "start_s": 36,
+      "end_s": 40,
+      "jy": 3
+    },
+    {
+      "start_s": 40,
+      "end_s": 44,
+      "jy": -3
+    },
+    {
+      "start_s": 44,
+      "end_s": 48,
+      "jy": 90
+    },
+    {
+      "start_s": 48,
+      "end_s": 52,
+      "jy": -90
+    },
+    {
+      "start_s": 52,
+      "end_s": 55,
+      "jy": 45
+    },
+    {
+      "start_s": 55,
+      "end_s": 58,
+      "jy": -45
+    },
+    {
+      "start_s": 58,
+      "end_s": 62,
+      "jy": 30
+    },
+    {
+      "start_s": 62,
+      "end_s": 66,
+      "jy": -30
+    },
+    {
+      "start_s": 66,
+      "end_s": 70,
+      "jy": 0
     }
   ]
 }

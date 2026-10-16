@@ -1,0 +1,434 @@
+{
+  "scenario": "P2-2",
+  "revision": "roll-v2",
+  "engine": "TSIM/ERC32 1.0.10",
+  "result": "PASS_WITH_OBSERVATIONS",
+  "issues": [],
+  "observations": [
+    {
+      "type": "structured_timestamp_reversal",
+      "before": {
+        "time": 27.916233904,
+        "kind": "SPEED_DATA",
+        "power": 500,
+        "pitch": 30,
+        "roll": 30,
+        "target": 800,
+        "warning": "FALSE"
+      },
+      "after": {
+        "time": 27.9150961,
+        "kind": "DONE",
+        "task": "SPEED",
+        "release": 27.9,
+        "response": 0.0137341
+      },
+      "difference_ms": 1.1378039999989653
+    },
+    {
+      "type": "device_warning_timestamp_precedes_position_data",
+      "position": {
+        "time": 55.832937904,
+        "kind": "POSITION_DATA",
+        "jx": 90,
+        "jy": -45,
+        "alt": 10040,
+        "pitch": 0,
+        "roll": -45,
+        "warning": "TRUE"
+      },
+      "warning_time": 55.8305467,
+      "difference_ms": 2.3912039999984813
+    }
+  ],
+  "run_id": "P2-2-ROLL.OmwpfU",
+  "zip_sha256": "edc84ab866750ae8746fa3ea934954f2351c582f1d4ad890a1535011ee1b206c",
+  "tsim_log_sha256": "26ab3ab329d98acf26bd2258a426c508de8dab1c2338030fd95266f66bba2cb5",
+  "source_commit": "c489c913a86a5d7ef3e1adaf09389996c93f1283",
+  "source_hash_count": 23,
+  "source_hashes_match": true,
+  "zip_matches_extracted_files": true,
+  "analysis": {
+    "code": "P2-2",
+    "engine": "tsim",
+    "events": 2687,
+    "checks": [
+      {
+        "check": "La aplicacion produce trazas",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin excepciones Ada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Ventana de captura completa",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin perdida ni truncamiento de salida",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Salida visible sin atraso de un periodo de display",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin OVERRUN en la ventana observada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Velocidad de salida entre 300 y 1000",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Pitch limitado a +/-30",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Roll limitado a +/-45",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Releases absolutos POSITION",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin activaciones perdidas POSITION",
+        "passed": true,
+        "detail": "350/350"
+      },
+      {
+        "check": "Todas las activaciones completadas POSITION",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Respuesta dentro del periodo POSITION",
+        "passed": true,
+        "detail": "max_ms=54.637"
+      },
+      {
+        "check": "Releases absolutos SPEED",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Sin activaciones perdidas SPEED",
+        "passed": true,
+        "detail": "234/234"
+      },
+      {
+        "check": "Todas las activaciones completadas SPEED",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Respuesta dentro del periodo SPEED",
+        "passed": true,
+        "detail": "max_ms=72.801"
+      },
+      {
+        "check": "Proteccion inferior observada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Proteccion superior observada",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Recuperacion desde limite inferior",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Recuperacion desde limite superior",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Roll segun entrada Y en todas las muestras",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Ordenes de roll coinciden con las muestras",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Saturacion de roll positiva y negativa",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Banda muerta de roll en ambos extremos",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Giros a ambos lados durante ascenso",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Giros a ambos lados durante descenso",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Limite inferior protege pitch sin anular roll",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Limite superior protege pitch sin anular roll",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Regreso a roll cero al final",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Compensaciones de velocidad durante el escenario mixto",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "check": "Aviso de alabeo visible",
+        "passed": true,
+        "detail": ""
+      }
+    ],
+    "passed": 32,
+    "total": 32,
+    "timing": {
+      "overruns": 0,
+      "max_evasion_response_ms": 0,
+      "max_end_lateness_ms": 0
+    }
+  },
+  "detailed_window_seconds": 70,
+  "jobs": {
+    "POSITION": {
+      "released": 350,
+      "completed": 350,
+      "expected": 350,
+      "period_ms": 200.0,
+      "max_response_ms": 54.637499999999996
+    },
+    "SPEED": {
+      "released": 234,
+      "completed": 234,
+      "expected": 234,
+      "period_ms": 300.0,
+      "max_response_ms": 72.801
+    }
+  },
+  "position_samples_checked": 350,
+  "position_failures": [],
+  "speed_samples_checked": 234,
+  "speed_failures": [],
+  "roll_segments": [
+    {
+      "start_s": 0,
+      "end_s": 4,
+      "jy": 0,
+      "samples": 20,
+      "observed_roll": [
+        0
+      ]
+    },
+    {
+      "start_s": 4,
+      "end_s": 8,
+      "jy": 30,
+      "samples": 20,
+      "observed_roll": [
+        30
+      ]
+    },
+    {
+      "start_s": 8,
+      "end_s": 12,
+      "jy": -30,
+      "samples": 20,
+      "observed_roll": [
+        -30
+      ]
+    },
+    {
+      "start_s": 12,
+      "end_s": 16,
+      "jy": 90,
+      "samples": 20,
+      "observed_roll": [
+        45
+      ]
+    },
+    {
+      "start_s": 16,
+      "end_s": 20,
+      "jy": -90,
+      "samples": 20,
+      "observed_roll": [
+        -45
+      ]
+    },
+    {
+      "start_s": 20,
+      "end_s": 22,
+      "jy": 45,
+      "samples": 10,
+      "observed_roll": [
+        45
+      ]
+    },
+    {
+      "start_s": 22,
+      "end_s": 24,
+      "jy": -45,
+      "samples": 10,
+      "observed_roll": [
+        -45
+      ]
+    },
+    {
+      "start_s": 24,
+      "end_s": 30,
+      "jy": 30,
+      "samples": 30,
+      "observed_roll": [
+        30
+      ]
+    },
+    {
+      "start_s": 30,
+      "end_s": 36,
+      "jy": -30,
+      "samples": 30,
+      "observed_roll": [
+        -30
+      ]
+    },
+    {
+      "start_s": 36,
+      "end_s": 40,
+      "jy": 3,
+      "samples": 20,
+      "observed_roll": [
+        0
+      ]
+    },
+    {
+      "start_s": 40,
+      "end_s": 44,
+      "jy": -3,
+      "samples": 20,
+      "observed_roll": [
+        0
+      ]
+    },
+    {
+      "start_s": 44,
+      "end_s": 48,
+      "jy": 90,
+      "samples": 20,
+      "observed_roll": [
+        45
+      ]
+    },
+    {
+      "start_s": 48,
+      "end_s": 52,
+      "jy": -90,
+      "samples": 20,
+      "observed_roll": [
+        -45
+      ]
+    },
+    {
+      "start_s": 52,
+      "end_s": 55,
+      "jy": 45,
+      "samples": 15,
+      "observed_roll": [
+        45
+      ]
+    },
+    {
+      "start_s": 55,
+      "end_s": 58,
+      "jy": -45,
+      "samples": 15,
+      "observed_roll": [
+        -45
+      ]
+    },
+    {
+      "start_s": 58,
+      "end_s": 62,
+      "jy": 30,
+      "samples": 20,
+      "observed_roll": [
+        30
+      ]
+    },
+    {
+      "start_s": 62,
+      "end_s": 66,
+      "jy": -30,
+      "samples": 20,
+      "observed_roll": [
+        -30
+      ]
+    },
+    {
+      "start_s": 66,
+      "end_s": 70,
+      "jy": 0,
+      "samples": 20,
+      "observed_roll": [
+        0
+      ]
+    }
+  ],
+  "roll_warning_count": 130,
+  "expected_roll_warning_count": 130,
+  "roll_warning_count_full_log": 260,
+  "roll_warning_scope": "Los 130 avisos de la ventana detallada se cotejan individualmente con sus ciclos POSITION. Los mensajes de dispositivo posteriores a 70 s quedan fuera de esta comparacion.",
+  "observed_altitude_min": 2000,
+  "observed_altitude_max": 10040,
+  "observed_speed_targets": [
+    600,
+    700,
+    750,
+    800
+  ],
+  "summary": [
+    {
+      "time": 138.5117698,
+      "kind": "TRACE_SUMMARY",
+      "window": 70.0,
+      "lost": 0,
+      "live_lost": 0,
+      "clipped": 0,
+      "max_live_output_age": 0.1016514
+    }
+  ],
+  "scope_note": "Validacion funcional y de comprobaciones periodicas de esta ejecucion durante la ventana detallada de 70 s. Hay dos inconsistencias de orden temporal de aproximadamente 1.14 y 2.39 ms; su causa no se ha determinado. No se debe certificar la precision submilisegundo de las trazas ni interpretar este resultado como una demostracion general de WCET."
+}

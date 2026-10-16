@@ -1,0 +1,16 @@
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata main.adb
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata fss.adb
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata button_interrupt.adb
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata devicesfss_v1.adb
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata fss_config.ads
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata fss_rules.adb
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata fss_trace.adb
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata mode_interrupt.adb
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata tools.adb
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata force_external_interrupt_2.adb
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata kernel.ads
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata kernel-serial_output.adb
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata testing_1.ads
+<GNAT_BIN>/gcc.exe -c -gnat95 -gnata workload.adb
+<GNAT_BIN>/gnatbind.exe -x main.ali
+<GNAT_BIN>/gnatlink.exe main.ali
