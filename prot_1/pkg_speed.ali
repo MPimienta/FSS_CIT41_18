@@ -3,7 +3,7 @@ A -g
 P LC TF
 R nnvvrnvvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
 
-U pkg_speed%b		pkg_speed.adb		24BB9A95 PK
+U pkg_speed%b		pkg_speed.adb		48AC5137 PK
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -28,7 +28,7 @@ D a-reatim.ads		20261002155301 5DBAB303
 D a-retide.ads		20261002155301 7F3C479C
 D a-stream.ads		20261002155301 5F7C277B
 D a-tags.ads		20261002155301 45EF7E4E
-D devicesfss_v1.ads	20261016221426 76163774
+D devicesfss_v1.ads	20261017004632 127DAAC8
 D kernel.ads		20261002155301 56BBE4F1
 D kernel-cpu_primitives.ads  20261002155301 5746D7AD
 D kernel-interrupts.ads	20261002155301 72CD7AA3
@@ -38,7 +38,7 @@ D kernel-threads.ads	20261002155301 234DAE87
 D kernel-time.ads	20261002155301 7A57ECF4
 D pkg_flight_data.ads	20261016221426 0908E38A
 D pkg_speed.ads		20261016223122 339B782B
-D pkg_speed.adb		20261016223917 752EA3A4
+D pkg_speed.adb		20261017003011 7D52F5BA
 D system.ads		20261002155301 2AE5BAFE
 D s-exctab.ads		20261002155301 7A25F5F9
 D s-finimp.ads		20261002155301 1C201C0F
@@ -68,42 +68,44 @@ X 5 a-reatim.ads
 45O9*Time 19|18r28
 50O9*Time_Span 19|19r19
 57U13*Clock 19|21r29
-59U13*"+" 19|21r35 67r51
+59U13*"+" 19|21r35 70r51
 89U13*Milliseconds 19|19r32
 X 9 devicesfss_v1.ads
 4U9*devicesFSS_V1 19|3r6 3r25
-31I10*Speed_Samples_Type 19|16r23 61r25
-34U15*Set_Speed 19|63r10
+31I10*Speed_Samples_Type 19|16r23 63r25
+34U15*Set_Speed 19|65r10
 39I10*Pitch_Samples_Type 19|9r23
 44I10*Roll_Samples_Type 19|10r23
 54I10*Power_Samples_Type 19|8r23
 55U15*Read_Power 19|25r10
-80N27*On 19|50r22
-80N31*Off 19|52r22
-82U15*Light_2 19|50r13 52r13
+80N27*On 19|52r22
+80N31*Off 19|54r22
+82U15*Light_2 19|52r13 54r13
+91U15*Display_Speed 19|66r10
+96U15*Display_Pilot_Power 19|26r10
 X 17 pkg_flight_data.ads
 4U9*Pkg_Flight_Data 19|4r6 4r27
-5w15*Flight_Data 19|26r27 27r27
-8U18 Read_Pitch_Protected 19|26r39
-9U18 Read_Roll_Protected 19|27r39
+5w15*Flight_Data 19|28r27 29r27
+8U18 Read_Pitch_Protected 19|28r39
+9U18 Read_Roll_Protected 19|29r39
 X 18 pkg_speed.ads
 3U9*Pkg_Speed 19|6b14
 4t9*Speed
 X 19 pkg_speed.adb
-8i7 Current_Power 25m22 29r24
-9i7 Current_Pitch 26m10 39r13 41r16
-10i7 Current_Roll 27m10 39r35 43r16
-12i7 P 29m10 30r13 31m13 32r16 33m13 36r25
-13i7 Base_Speed 36m10 47r26
-14i7 Extra_Speed 38m10 40m13 42m13 44m13 47r39
-15i7 Target_Speed 47m10 49r13 49r36 55r13 56m13 57r16 58m13 61r45
-16i7 Final_Speed 61m10 63r21
-18O7 Siguiente_Instante 21m7 66r22 67m10 67r32
-19O7 Intervalo 21r37 67r53
+8i7 Current_Power 25m22 26r31 31r24
+9i7 Current_Pitch 28m10 41r13 43r16
+10i7 Current_Roll 29m10 41r35 45r16
+12i7 P 31m10 32r13 33m13 34r16 35m13 38r25
+13i7 Base_Speed 38m10 49r26
+14i7 Extra_Speed 40m10 42m13 44m13 46m13 49r39
+15i7 Target_Speed 49m10 51r13 51r36 57r13 58m13 59r16 60m13 63r45
+16i7 Final_Speed 63m10 65r21 66r25
+18O7 Siguiente_Instante 21m7 69r22 70m10 70r32
+19O7 Intervalo 21r37 70r53
 X 20 system.ads
 46U9*System 18|1r6 1r18
 X 40 tools.ads
 6U9*tools 19|2r6 2r17
 15U15*Start_Activity 19|23r10
-16U15*Finish_Activity 19|65r10
+16U15*Finish_Activity 19|68r10
 

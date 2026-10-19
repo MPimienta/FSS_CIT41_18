@@ -3,7 +3,7 @@ A -g
 P LC TF
 R nnvvrnnvnnnnvvvvnvvvnnnnnnnnnnvnnnnnnnnnnnn
 
-U fss%b			fss.adb			0D353566 PK IL
+U fss%b			fss.adb			695EA8DA PK IL
 W ada%s			ada.ads			ada.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 W devicesfss_v1%s	devicesfss_v1.adb	devicesfss_v1.ali
@@ -23,7 +23,7 @@ D a-filico.ads		20261002155301 1DECB9AC
 D a-reatim.ads		20261002155301 5DBAB303
 D a-stream.ads		20261002155301 5F7C277B
 D a-tags.ads		20261002155301 45EF7E4E
-D devicesfss_v1.ads	20261016221426 76163774
+D devicesfss_v1.ads	20261017004632 127DAAC8
 D fss.ads		20261016221426 40408672
 D fss.adb		20261016223445 07B5A8D5
 D kernel.ads		20261002155301 56BBE4F1

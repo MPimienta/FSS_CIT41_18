@@ -1,11 +1,16 @@
 -------------------------------------------------------------------------
---Nombres:
+-- Nombres:
 ---- Mauricio Pimienta Fernández
 ---- José María Cadarso Nieto
 ---- Wu Kuangcheng
 ---- Zhang Weiyin
 -------------------------------------------------------------------------
---Tareas Implementadas: Velocidad, Sensores, Altitud
+-- Tareas Implementadas:
+---- Speed
+---- Position_Altitude
+-------------------------------------------------------------------------
+-- Objetos Protegidos:
+---- Flight_Data: Protege los valores de current pitch y roll 
 -------------------------------------------------------------------------
 with Kernel.Serial_Output; use Kernel.Serial_Output;
 with Ada.Real_Time; use Ada.Real_Time;

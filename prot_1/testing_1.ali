@@ -3,7 +3,7 @@ A -g
 P
 R nnvnrnnvnnnnvvvvnvvvnnnnnnnnnnvnnnnnnnnnnnn
 
-U testing_1%s		testing_1.ads		2C5853ED PK
+U testing_1%s		testing_1.ads		5D6C2022 PK
 W ada%s			ada.ads			ada.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 W devicesfss_v1%s	devicesfss_v1.adb	devicesfss_v1.ali
@@ -15,7 +15,7 @@ D a-filico.ads		20261002155301 1DECB9AC
 D a-reatim.ads		20261002155301 5DBAB303
 D a-stream.ads		20261002155301 5F7C277B
 D a-tags.ads		20261002155301 45EF7E4E
-D devicesfss_v1.ads	20261016221426 76163774
+D devicesfss_v1.ads	20261017004632 127DAAC8
 D kernel.ads		20261002155301 56BBE4F1
 D kernel-cpu_primitives.ads  20261002155301 5746D7AD
 D kernel-interrupts.ads	20261002155301 72CD7AA3
@@ -40,7 +40,7 @@ D s-taspri.ads		20261002155301 3235B2AC
 D s-taprop.ads		20261002155301 36F12025
 D s-taskin.ads		20261002155301 09146F23
 D s-unstyp.ads		20261002155301 78AFB91D
-D testing_1.ads		20261016221426 07F4D79A
+D testing_1.ads		20261017010401 12AB39E9
 D unchconv.ads		20261002155301 72DC4539
 X 1 ada.ads
 18U9*Ada 33|2r6 2r25 10r29 10r56 11r26 11r53 13r29 13r56 14r34 14r61 15r32
@@ -58,10 +58,11 @@ X 8 devicesfss_v1.ads
 4U9*devicesFSS_V1 33|3r6 3r25
 11I10*Distance_Samples_Type 33|37r76
 15I10*Light_Samples_Type 33|66r68
-54I10*Power_Samples_Type 33|128r68
+24I10*Altitude_Samples_Type 33|31r23
+54I10*Power_Samples_Type 33|133r67
 60A10*Joystick_Samples_Type 33|95r49
-68I10*PilotPresence_Samples_Type 33|158r84
-72I10*PilotButton_Samples_Type 33|186r80
+68I10*PilotPresence_Samples_Type 33|174r84
+72I10*PilotButton_Samples_Type 33|202r80
 X 33 testing_1.ads
 5U9*Testing_1
 10O5*WCET_Distance
@@ -76,6 +77,7 @@ X 33 testing_1.ads
 23O5*WCET_Roll
 25O5*WCET_Display
 26O5*WCET_Alarm
+31i5*Initial_Altitude
 35N5*cantidad_datos_Distancia 36r44
 36M10*Indice_Secuencia_Distancia 37r45
 37A10*tipo_Secuencia_Distancia 39r26
@@ -84,20 +86,20 @@ X 33 testing_1.ads
 65M10*Indice_Secuencia_Light 66r41
 66A10*tipo_Secuencia_Light 68r33
 68a5*Light_Intensity_Simulation
-92N5*cantidad_datos_Joystick 93r43
+92N4*cantidad_datos_Joystick 93r43
 93M10*Indice_Secuencia_Joystick 94r44
-94A10*tipo_Secuencia_Joystick 96r22
-96a1*Joystick_Simulation
-126N5*cantidad_datos_Power 127r40
-127M10*Indice_Secuencia_Power 128r41
-128A10*tipo_Secuencia_Power 130r23
-130a5*Power_Simulation
-156N5*cantidad_datos_PilotPresence 157r48
-157M10*Indice_Secuencia_PilotPresence 158r49
-158A10*tipo_Secuencia_PilotPresence 160r31
-160a5*PilotPresence_Simulation
-184N5*cantidad_datos_PilotButton 185r46
-185M10*Indice_Secuencia_PilotButton 186r47
-186A10*tipo_Secuencia_PilotButton 188r29
-188a5*PilotButton_Simulation
+94A10*tipo_Secuencia_Joystick 97r26
+97a5*Joystick_Simulation
+131N5*cantidad_datos_Power 132r39
+132M9*Indice_Secuencia_Power 133r40
+133A9*tipo_Secuencia_Power 135r23
+135a4*Power_Simulation
+172N5*cantidad_datos_PilotPresence 173r48
+173M10*Indice_Secuencia_PilotPresence 174r49
+174A10*tipo_Secuencia_PilotPresence 176r31
+176a5*PilotPresence_Simulation
+200N5*cantidad_datos_PilotButton 201r46
+201M10*Indice_Secuencia_PilotButton 202r47
+202A10*tipo_Secuencia_PilotButton 204r29
+204a5*PilotButton_Simulation
 

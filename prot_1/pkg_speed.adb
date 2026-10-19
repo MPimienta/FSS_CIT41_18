@@ -23,6 +23,8 @@ package body Pkg_Speed is
          Start_Activity ("Task Speed launched");
          
          Read_Power (Current_Power);
+         Display_Pilot_Power (Current_Power);
+
          Current_Pitch := Flight_Data.Read_Pitch_Protected;
          Current_Roll  := Flight_Data.Read_Roll_Protected;
          
@@ -61,6 +63,7 @@ package body Pkg_Speed is
          Final_Speed := Speed_Samples_Type (Target_Speed);
          
          Set_Speed (Final_Speed);
+         Display_Speed (Final_Speed);
          
          Finish_Activity ("Task Speed Ended");
          delay until Siguiente_Instante;

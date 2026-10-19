@@ -24,7 +24,7 @@ package devicesFSS_V1 is
     type Altitude_Samples_Type is new natural range 0..15000;
     type Altitude_Increment_Type is new integer range -100..+100;    
     function Read_Altitude return Altitude_Samples_Type;         -- lee altitud de la aeronave
-    Initial_Altitude: Altitude_Samples_Type := 8000;
+    --Initial_Altitude: Altitude_Samples_Type := 8000;
     
     ------ SPEED
     -- It reads the aircraft speed: from 0 to 1100 Km/h.  
