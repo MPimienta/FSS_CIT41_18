@@ -20,30 +20,33 @@ Package body Pkg_Position_Altitude is
     begin
       Siguiente_Instante := Big_Bang + Intervalo;
     	loop
-    	Start_Activity ("Task Position_Altitude launched");
-            if (Evading_State.Read_Evading_State = False) then
+    	    Start_Activity ("Task Position_Altitude launched");
+
+            -- mantener la lectura de los sensores y acciones que no tengan que ver con pitch y roll
+
+            -- Lee Joystick del piloto
+            Read_Joystick (Current_J);
+            
+            -- Lee altitud
+            Current_A := Read_Altitude;
+
+            -- Uncomment for testing
+            --Display_Altitude (Current_A);
+                
+            -- Comprueba altitud
+            if (Current_A < 2500 or Current_A > 9500) then
+                Light_1 (On);
+            else
+                Light_1 (Off);
+            end if;
+
+            if not Evading_State.Read_Evading_State then
 
             
-                -- Lee Joystick del piloto
-                Read_Joystick (Current_J);
-            
-                -- Comprueba altitud
-                Current_A := Read_Altitude;         -- lee y muestra por display la altitud de la aeronave  
-            
-                -- Uncomment for testing
-                --Display_Altitude (Current_A);
 
                 -- establece Pitch y Roll en la aeronave
                 Target_Pitch := Pitch_Samples_Type (Current_J(x));
                 Target_Roll := Roll_Samples_Type (Current_J(y));
-
-                -- Comprueba altitud
-                if (Current_A < 2500 or Current_A > 9500) then
-                    Light_1 (On);
-                else
-                    Light_1 (Off);
-                end if;
-
 
                 -- Detectar el rango de [-3, +3] como 0
                 if (Target_Pitch <= 3 and Target_Pitch >= -3) then
@@ -86,18 +89,20 @@ Package body Pkg_Position_Altitude is
                 Set_Aircraft_Pitch (Target_Pitch);
                 Set_Aircraft_Roll (Target_Roll);
                        
-                Aircraft_Pitch := Read_Pitch;       -- lee la posición pitch de la aeronave
-                Aircraft_Roll := Read_Roll;         -- lee la posición roll  de la aeronave
             
-                -- Uncomment for testing
-                -- Display_Joystick (Current_J);       -- muestra por display el joystick  
-                -- Display_Pitch (Aircraft_Pitch);     -- muestra por display la posición de la aeronave  
 
-                -- Uncomment for testing
-                -- Display_Roll (Aircraft_Roll);
+            end if; -- no hacer nada si el avión está evadiendo pero mantener las acciones que no influyen en la evasión
 
-            end if; -- no hacer nada si el avión está evadiendo pero mantener el cálculo de siguiente instante
+            Aircraft_Pitch := Read_Pitch;       -- lee la posición pitch de la aeronave
+            Aircraft_Roll := Read_Roll;         -- lee la posición roll  de la aeronave
+                
+            -- Uncomment for testing
+            -- Display_Joystick (Current_J);       -- muestra por display el joystick  
+            -- Display_Pitch (Aircraft_Pitch);     -- muestra por display la posición de la aeronave  
 
+            -- Uncomment for testing
+            -- Display_Roll (Aircraft_Roll);
+            
             Finish_Activity ("Task Position_Altitude Ended");   
             delay until Siguiente_Instante;
             Siguiente_Instante := Siguiente_Instante + Intervalo;

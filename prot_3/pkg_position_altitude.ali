@@ -3,7 +3,7 @@ A -g
 P LC TF
 R nnvvrnvvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
 
-U pkg_position_altitude%b  pkg_position_altitude.adb  6C83843C PK KM
+U pkg_position_altitude%b  pkg_position_altitude.adb  50CEECE1 PK KM
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -40,7 +40,7 @@ D kernel-time.ads	20261002155301 7A57ECF4
 D pkg_evading_state.ads	20261020132904 79CB984C
 D pkg_flight_data.ads	20261020133006 0908E38A
 D pkg_position_altitude.ads  20261019174253 2E154370
-D pkg_position_altitude.adb  20261020134407 3D3883A6
+D pkg_position_altitude.adb  20261020140025 0175EB7B
 D system.ads		20261002155301 2AE5BAFE
 D s-exctab.ads		20261002155301 7A25F5F9
 D s-finimp.ads		20261002155301 1C201C0F
@@ -69,53 +69,53 @@ X 5 a-reatim.ads
 43U13*Real_Time 20|1r10 1r29
 45O9*Time 20|17r28
 50O9*Time_Span 20|18r19
-59U13*"+" 20|21r38 103r54
+59U13*"+" 20|21r38 108r54
 89U13*Milliseconds 20|18r32
 X 9 devicesfss_v1.ads
 4U9*devicesFSS_V1 20|3r6 3r25
 24I10*Altitude_Samples_Type 20|15r18
-26U14*Read_Altitude 20|31r30
-39I10*Pitch_Samples_Type 20|10r21 12r23 37r33
-41U14*Read_Pitch 20|89r35
-42U15*Set_Aircraft_Pitch 20|86r17
-44I10*Roll_Samples_Type 20|11r20 13r22 38r32
-46U14*Read_Roll 20|90r34
-47U15*Set_Aircraft_Roll 20|87r17
-58N37*x 20|37r63
-58N39*y 20|38r61
+26U14*Read_Altitude 20|31r26
+39I10*Pitch_Samples_Type 20|10r21 12r23 48r33
+41U14*Read_Pitch 20|96r31
+42U15*Set_Aircraft_Pitch 20|89r17
+44I10*Roll_Samples_Type 20|11r20 13r22 49r32
+46U14*Read_Roll 20|97r30
+47U15*Set_Aircraft_Roll 20|90r17
+58N37*x 20|48r63
+58N39*y 20|49r61
 60A10*Joystick_Samples_Type 20|9r18
-62U15*Read_Joystick 20|28r17
-80N27*On 20|42r30
-80N31*Off 20|44r30
-81U15*Light_1 20|42r21 44r21
+62U15*Read_Joystick 20|28r13
+80N27*On 20|38r26
+80N31*Off 20|40r26
+81U15*Light_1 20|38r17 40r17
 X 17 pkg_evading_state.ads
 4U9*Pkg_Evading_State 20|5r6 5r29
-5w15*Evading_State 20|24r17
-7U18 Read_Evading_State 20|24r31
+5w15*Evading_State 20|43r20
+7U18 Read_Evading_State 20|43r34
 X 18 pkg_flight_data.ads
 4U9*Pkg_Flight_Data 20|4r6 4r27
-5w15*Flight_Data 20|83r17 84r17
-6U19 Update_Pitch_Protected 20|84r29
-7U19 Update_Roll_Protected 20|83r29
+5w15*Flight_Data 20|86r17 87r17
+6U19 Update_Pitch_Protected 20|87r29
+7U19 Update_Roll_Protected 20|86r29
 X 19 pkg_position_altitude.ads
 3U9*Pkg_Position_Altitude 20|7b14
 4t10*Position_Altitude
 X 20 pkg_position_altitude.adb
-9a7 Current_J 28m32 37r53 38r51
-10i7 Target_Pitch 37m17 49r21 49r43 50m21 58r21 59m21 60r24 61m21 62r24 63m21
-. 64r24 65m21 84r53 86r37
-11i7 Target_Roll 38m17 53r21 53r42 54m21 70r20 72r24 73m25 75r23 77r24 78m25
-. 83r51 87r36
-12i7 Aircraft_Pitch 89m17
-13i7 Aircraft_Roll 90m17
-15i7 Current_A 31m17 41r21 41r41 58r42 62r45
-17O7 Siguiente_Instante 21m7 102r25 103m13 103r35
-18O7 Intervalo 21r40 103r56
+9a7 Current_J 28m28 48r53 49r51
+10i7 Target_Pitch 48m17 52r21 52r43 53m21 61r21 62m21 63r24 64m21 65r24 66m21
+. 67r24 68m21 87r53 89r37
+11i7 Target_Roll 49m17 56r21 56r42 57m21 73r20 75r24 76m25 78r23 80r24 81m25
+. 86r51 90r36
+12i7 Aircraft_Pitch 96m13
+13i7 Aircraft_Roll 97m13
+15i7 Current_A 31m13 37r17 37r37 61r42 65r45
+17O7 Siguiente_Instante 21m7 107r25 108m13 108r35
+18O7 Intervalo 21r40 108r56
 X 21 system.ads
 46U9*System 19|1r6 1r18
 X 41 tools.ads
 6U9*tools 20|2r6 2r17
 8O5*Big_Bang 20|21r29
-15U15*Start_Activity 20|23r9
-16U15*Finish_Activity 20|101r13
+15U15*Start_Activity 20|23r13
+16U15*Finish_Activity 20|106r13
 
