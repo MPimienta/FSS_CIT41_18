@@ -3,6 +3,7 @@ with Tools; use Tools;
 with devicesFSS_V1; use devicesFSS_V1;
 with pkg_flight_data; use pkg_flight_data;
 with pkg_evading_state; use pkg_evading_state;
+with pkg_status_record; use pkg_status_record;
 
 Package body Pkg_Position_Altitude is 
    Task body Position_Altitude is
@@ -30,8 +31,8 @@ Package body Pkg_Position_Altitude is
             -- Lee altitud
             Current_A := Read_Altitude;
 
-            -- Uncomment for testing
-            --Display_Altitude (Current_A);
+            -- Actualizar el status_record de Altitude
+            Status_Record.Update_Altitude_Status(Current_A);
                 
             -- Comprueba altitud
             if (Current_A < 2500 or Current_A > 9500) then
@@ -40,10 +41,8 @@ Package body Pkg_Position_Altitude is
                 Light_1 (Off);
             end if;
 
+            -- Comprobar que no se encuentra en estado de evasión para realizar sus actividades originales
             if not Evading_State.Read_Evading_State then
-
-            
-
                 -- establece Pitch y Roll en la aeronave
                 Target_Pitch := Pitch_Samples_Type (Current_J(x));
                 Target_Roll := Roll_Samples_Type (Current_J(y));
@@ -68,18 +67,28 @@ Package body Pkg_Position_Altitude is
                     Target_Pitch := -30;
                 end if;
 
-                -- Uncomment displays for testing
                 -- Limites de alabeo y aviso
                 if Target_Roll > 35 then
-                    --   Display_Message ("Angulo alabeo superior a 35");
+                    -- Mandar el aviso de alabeo alto
+                    Status_Record.Update_Warning_Roll_High(True);
                     if Target_Roll > 45 then
                         Target_Roll := 45;
                     end if;
-                elsif Target_Roll < -35 then
-                    --   Display_Message ("Angulo alabeo inferior a -35");
+                else 
+                    -- Quitar el aviso de alabeo alto
+                    Status_Record.Update_Warning_roll_High(False);
+                end if;
+
+                if Target_Roll < -35 then
+                    -- Mandar el aviso de alabeo bajo
+                    Status_Record.Update_Warning_Roll_Low(True);
                     if Target_Roll < -45 then
                         Target_Roll := -45;
                     end if;
+                else 
+                    -- Quitar el aviso de alabeo bajo
+                    Status_Record.Update_Warning_roll_Low(False);
+
                 end if;
 
                 -- Actualizar posicion
@@ -96,12 +105,10 @@ Package body Pkg_Position_Altitude is
             Aircraft_Pitch := Read_Pitch;       -- lee la posición pitch de la aeronave
             Aircraft_Roll := Read_Roll;         -- lee la posición roll  de la aeronave
                 
-            -- Uncomment for testing
-            -- Display_Joystick (Current_J);       -- muestra por display el joystick  
-            -- Display_Pitch (Aircraft_Pitch);     -- muestra por display la posición de la aeronave  
-
-            -- Uncomment for testing
-            -- Display_Roll (Aircraft_Roll);
+            -- Actualizar los valores de Joystick, Pitch y Roll
+            Status_Record.Update_Pitch_Status(Aircraft_Pitch);
+            Status_Record.Update_Roll_Status(Aircraft_Roll);
+            Status_Record.Update_Joystick_Status(Current_J);
             
             Finish_Activity ("Task Position_Altitude Ended");   
             delay until Siguiente_Instante;
