@@ -5,6 +5,8 @@ with pkg_flight_data; use pkg_flight_data;
 with pkg_evading_state; use pkg_evading_state;
 with pkg_status_record; use pkg_status_record;
 
+-- TODO: Añadir integración con el objeto protegido de Speed_Altitude
+
 Package body Pkg_Position_Altitude is 
    Task body Position_Altitude is
       Current_J: Joystick_Samples_Type := (0,0);

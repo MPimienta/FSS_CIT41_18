@@ -18,12 +18,12 @@ package body Pkg_Display_Task is
             -- Extraer todos los datos actuales del sistema
             Current_Data := Status_Record.Read_All_Status;
 
-            Display_Joystick (Datos_Actuales.Joystick);
-            Display_Pitch (Datos_Actuales.Pitch);
-            Display_Roll (Datos_Actuales.Roll);
-            Display_Altitude (Datos_Actuales.Altitude);
-            Display_Pilot_Power (Datos_Actuales.Power);
-            Display_Speed (Datos_Actuales.Speed);
+            Display_Joystick (Current_Data.Joystick);
+            Display_Pitch (Current_Data.Pitch);
+            Display_Roll (Current_Data.Roll);
+            Display_Altitude (Current_Data.Altitude);
+            Display_Pilot_Power (Current_Data.Power);
+            Display_Speed (Current_Data.Speed);
 
             -- Evaluar los booleans para mostrar avisos o no
         
