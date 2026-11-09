@@ -2,6 +2,7 @@ with Ada.Real_Time; use Ada.Real_Time;
 with Tools; use Tools;
 with devicesFSS_V1; use devicesFSS_V1;
 with Pkg_Flight_Data; use Pkg_Flight_Data;
+with protectedSpeedAltitude; 
 
 package body Pkg_Speed is
    task body Speed is
@@ -61,7 +62,8 @@ package body Pkg_Speed is
          end if;
          
          Final_Speed := Speed_Samples_Type (Target_Speed);
-         
+         protectedSpeedAltitude.Speed.Set(Final_Speed);
+
          Set_Speed (Final_Speed);
          Display_Speed (Final_Speed);
          
