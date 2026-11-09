@@ -1,5 +1,5 @@
-package body Pkg_Flight_Data is
-    protected body Flight_Data is
+package body Pkg_PO_Position is
+    protected body PO_Position is
         
         procedure Update_Pitch_Protected (Pitch : Pitch_Samples_Type) is
         begin
@@ -21,5 +21,5 @@ package body Pkg_Flight_Data is
             return Current_Roll;
         end Read_Roll_Protected;
         
-    end Flight_Data;
-end Pkg_Flight_Data;
+    end PO_Position;
+end Pkg_PO_Position;

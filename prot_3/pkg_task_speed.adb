@@ -1,11 +1,11 @@
 with Ada.Real_Time; use Ada.Real_Time;
 with Tools; use Tools;
 with devicesFSS_V1; use devicesFSS_V1;
-with Pkg_Flight_Data; use Pkg_Flight_Data;
-with protectedSpeedAltitude; 
+with Pkg_PO_Position; use Pkg_PO_Position;
+with Pkg_PO_Speed_Altitude; use Pkg_PO_Speed_Altitude; 
 
-package body Pkg_Speed is
-   task body Speed is
+package body Pkg_Task_Speed is
+   task body Task_Speed is
       Current_Power : Power_Samples_Type;
       Current_Pitch : Pitch_Samples_Type;
       Current_Roll  : Roll_Samples_Type;
@@ -21,13 +21,12 @@ package body Pkg_Speed is
    begin
       Siguiente_Instante := Clock + Intervalo;
       loop
-         Start_Activity ("Task Speed launched");
+         Start_Activity ("Task_Speed launched");
          
          Read_Power (Current_Power);
-         Display_Pilot_Power (Current_Power);
 
-         Current_Pitch := Flight_Data.Read_Pitch_Protected;
-         Current_Roll  := Flight_Data.Read_Roll_Protected;
+         Current_Pitch := PO_Position.Read_Pitch_Protected;
+         Current_Roll  := PO_Position.Read_Roll_Protected;
          
          P := Integer (Current_Power);
          if P < 0 then 
@@ -62,14 +61,13 @@ package body Pkg_Speed is
          end if;
          
          Final_Speed := Speed_Samples_Type (Target_Speed);
-         protectedSpeedAltitude.Speed.Set(Final_Speed);
+         PO_Speed.Update_Speed_Protected(Final_Speed);
 
          Set_Speed (Final_Speed);
-         Display_Speed (Final_Speed);
          
-         Finish_Activity ("Task Speed Ended");
+         Finish_Activity ("Task_Speed Ended");
          delay until Siguiente_Instante;
          Siguiente_Instante := Siguiente_Instante + Intervalo;
       end loop;
-   end Speed;
-end Pkg_Speed;
+   end Task_Speed;
+end Pkg_Task_Speed;

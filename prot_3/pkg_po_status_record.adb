@@ -1,5 +1,5 @@
-package body Pkg_Status_Record is
-    protected body Status_Record is
+package body Pkg_PO_Status_Record is
+    protected body PO_Status_Record is
     
         procedure Update_Pitch_Status(Pitch : Pitch_Samples_Type) is
         begin
@@ -56,5 +56,5 @@ package body Pkg_Status_Record is
             return Snapshot;
         end Read_All_Status;
         
-    end Status_Record;
-end Pkg_Status_Record;
+    end PO_Status_Record;
+end Pkg_PO_Status_Record;

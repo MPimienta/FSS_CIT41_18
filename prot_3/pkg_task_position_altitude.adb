@@ -1,14 +1,14 @@
 with Ada.Real_Time; use Ada.Real_Time;
 with Tools; use Tools;
 with devicesFSS_V1; use devicesFSS_V1;
-with pkg_flight_data; use pkg_flight_data;
-with pkg_evading_state; use pkg_evading_state;
-with pkg_status_record; use pkg_status_record;
+with Pkg_PO_Position; use Pkg_PO_Position;
+with Pkg_PO_Evading_State; use Pkg_PO_Evading_State;
+with Pkg_PO_Status_Record; use Pkg_PO_Status_Record;
+with Pkg_PO_Speed_Altitude; use Pkg_PO_Speed_Altitude;
 
--- TODO: Añadir integración con el objeto protegido de Speed_Altitude
 
-Package body Pkg_Position_Altitude is 
-   Task body Position_Altitude is
+Package body Pkg_Task_Position_Altitude is 
+   Task body Task_Position_Altitude is
       Current_J: Joystick_Samples_Type := (0,0);
       Target_Pitch: Pitch_Samples_Type := 0;
       Target_Roll: Roll_Samples_Type := 0; 
@@ -23,7 +23,7 @@ Package body Pkg_Position_Altitude is
     begin
       Siguiente_Instante := Big_Bang + Intervalo;
     	loop
-    	    Start_Activity ("Task Position_Altitude launched");
+    	    Start_Activity ("Task_Position_Altitude launched");
 
             -- mantener la lectura de los sensores y acciones que no tengan que ver con pitch y roll
 
@@ -33,8 +33,9 @@ Package body Pkg_Position_Altitude is
             -- Lee altitud
             Current_A := Read_Altitude;
 
+            PO_Altitude.Update_Altitude_Protected(Current_A);
             -- Actualizar el status_record de Altitude
-            Status_Record.Update_Altitude_Status(Current_A);
+            PO_Status_Record.Update_Altitude_Status(Current_A);
                 
             -- Comprueba altitud
             if (Current_A < 2500 or Current_A > 9500) then
@@ -44,7 +45,7 @@ Package body Pkg_Position_Altitude is
             end if;
 
             -- Comprobar que no se encuentra en estado de evasión para realizar sus actividades originales
-            if not Evading_State.Read_Evading_State then
+            if not PO_Evading_State.Read_Evading_State then
                 -- establece Pitch y Roll en la aeronave
                 Target_Pitch := Pitch_Samples_Type (Current_J(x));
                 Target_Roll := Roll_Samples_Type (Current_J(y));
@@ -72,30 +73,30 @@ Package body Pkg_Position_Altitude is
                 -- Limites de alabeo y aviso
                 if Target_Roll > 35 then
                     -- Mandar el aviso de alabeo alto
-                    Status_Record.Update_Warning_Roll_High(True);
+                    PO_Status_Record.Update_Warning_Roll_High(True);
                     if Target_Roll > 45 then
                         Target_Roll := 45;
                     end if;
                 else 
                     -- Quitar el aviso de alabeo alto
-                    Status_Record.Update_Warning_roll_High(False);
+                    PO_Status_Record.Update_Warning_roll_High(False);
                 end if;
 
                 if Target_Roll < -35 then
                     -- Mandar el aviso de alabeo bajo
-                    Status_Record.Update_Warning_Roll_Low(True);
+                    PO_Status_Record.Update_Warning_Roll_Low(True);
                     if Target_Roll < -45 then
                         Target_Roll := -45;
                     end if;
                 else 
                     -- Quitar el aviso de alabeo bajo
-                    Status_Record.Update_Warning_roll_Low(False);
+                    PO_Status_Record.Update_Warning_roll_Low(False);
 
                 end if;
 
                 -- Actualizar posicion
-                Flight_Data.Update_Roll_Protected(Target_Roll);   
-                Flight_Data.Update_Pitch_Protected (Target_Pitch);
+                PO_Position.Update_Roll_Protected(Target_Roll);   
+                PO_Position.Update_Pitch_Protected (Target_Pitch);
             
                 Set_Aircraft_Pitch (Target_Pitch);
                 Set_Aircraft_Roll (Target_Roll);
@@ -108,15 +109,15 @@ Package body Pkg_Position_Altitude is
             Aircraft_Roll := Read_Roll;         -- lee la posición roll  de la aeronave
                 
             -- Actualizar los valores de Joystick, Pitch y Roll
-            Status_Record.Update_Pitch_Status(Aircraft_Pitch);
-            Status_Record.Update_Roll_Status(Aircraft_Roll);
-            Status_Record.Update_Joystick_Status(Current_J);
+            PO_Status_Record.Update_Pitch_Status(Aircraft_Pitch);
+            PO_Status_Record.Update_Roll_Status(Aircraft_Roll);
+            PO_Status_Record.Update_Joystick_Status(Current_J);
             
-            Finish_Activity ("Task Position_Altitude Ended");   
+            Finish_Activity ("Task_Position_Altitude Ended");   
             delay until Siguiente_Instante;
             Siguiente_Instante := Siguiente_Instante + Intervalo;
         end loop;
 
-    end Position_Altitude;
-end Pkg_Position_Altitude;
+    end Task_Position_Altitude;
+end Pkg_Task_Position_Altitude;
 

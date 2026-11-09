@@ -1,7 +1,7 @@
 with devicesFSS_V1; use devicesFSS_V1;
 with Tools; use Tools;
 
-package Pkg_Status_Record is
+package Pkg_PO_Status_Record is
 
     type System_Snapshot is record
         -- Variables para guardar todos los datos del sistema
@@ -17,7 +17,7 @@ package Pkg_Status_Record is
         Warning_Roll_Low : Boolean;
     end record;
 
-    protected Status_Record is
+    protected PO_Status_Record is
         procedure Update_Pitch_Status(Pitch : Pitch_Samples_Type);
         procedure Update_Roll_Status(Roll : Roll_Samples_Type);
         procedure Update_Altitude_Status(Altitude : Altitude_Samples_Type);
@@ -38,5 +38,5 @@ package Pkg_Status_Record is
         Current_Speed_Status        : Speed_Samples_Type := 0;
         Current_Warning_Roll_High   : Boolean := False;
         Current_Warning_Roll_Low    : Boolean := False;
-    end Status_Record;
-end Pkg_Status_Record;
+    end PO_Status_Record;
+end Pkg_PO_Status_Record;

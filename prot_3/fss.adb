@@ -19,10 +19,10 @@ with System; use System;
 with Tools; use Tools;
 with devicesFSS_V1; use devicesFSS_V1;
 
-with Pkg_Position_Altitude;
-with Pkg_Speed;
-with Pkg_Display_Task;
-with Pkg_Collision_Task;
+with Pkg_Task_Position_Altitude;
+with Pkg_Task_Speed;
+with Pkg_Task_Display;
+with Pkg_Task_Collision;
 
 -- NO ACTIVAR ESTE PAQUETE MIENTRAS NO SE TENGA PROGRAMADA LA INTERRUPCION
 -- Packages needed to generate button interrupts       

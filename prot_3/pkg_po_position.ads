@@ -1,8 +1,8 @@
 with devicesFSS_V1; use devicesFSS_V1;
 with Tools; use Tools;
 
-package Pkg_Flight_Data is
-    protected Flight_Data is
+package Pkg_PO_Position is
+    protected PO_Position is
         procedure Update_Pitch_Protected (Pitch : Pitch_Samples_Type);
         procedure Update_Roll_Protected (Roll : Roll_Samples_Type);
         function Read_Pitch_Protected return Pitch_Samples_Type;
@@ -10,5 +10,5 @@ package Pkg_Flight_Data is
     private
         Current_Pitch : Pitch_Samples_Type := 0;
         Current_Roll : Roll_Samples_Type := 0;
-    end Flight_Data;
-end Pkg_Flight_Data;
+    end PO_Position;
+end Pkg_PO_Position;
