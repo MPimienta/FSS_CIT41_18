@@ -1,19 +1,28 @@
 package body protectedSpeedAltitude is
 
-   protected body protectedSpeedAltitude is
+   protected body Speed is
 
-      procedure Calcular_velocidad_aeronave
-        (Potencia  : in  Integer;
-         Velocidad : out Integer) is
-         Resultado : Integer;
+      procedure Set (Valor : in Speed_Samples_Type) is
       begin
-         Resultado := Integer (Float (Potencia) * 1.2);
-         if Resultado > 1023 then
-            Resultado := 1023;
-         end if;
-         Velocidad := Resultado;
-      end Calcular_velocidad_aeronave;
+         Velocidad := Valor;
+      end Set;
 
-   end protectedSpeedAltitude;
+      function Get return Speed_Samples_Type is
+      begin
+         return Velocidad;
+      end Get;
+
+   end Speed;
+
+   protected body Altitude is
+   	procedure Set (Valor : in Altitude_Samples_Type) is
+	begin
+	   Valor_Alt := Valor;
+	end Set;
+	function Get return Altitude_Samples_Type is
+	begin
+	   return Valor_Alt;
+	end Get;
+   end Altitude;
 
 end protectedSpeedAltitude;
