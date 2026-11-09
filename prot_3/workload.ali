@@ -14,19 +14,19 @@ W system%s		system.ads		system.ali
 W system.exception_table%s  s-exctab.adb	s-exctab.ali
 W system.standard_library%s  s-stalib.adb	s-stalib.ali
 
-D ada.ads		20261002155301 2359F9ED
-D a-except.ads		20261002155301 287FCF69
-D a-numeri.ads		20261002155301 271ACBE2
-D a-nuelfu.ads		20261002155301 508A7580
-D a-ngelfu.ads		20261002155301 21EF4847
-D kernel.ads		20261002155301 56BBE4F1
-D kernel-parameters.ads	20261002155301 0D1B8F78
-D system.ads		20261002155301 2AE5BAFE
-D s-exctab.ads		20261002155301 7A25F5F9
-D s-stalib.ads		20261002155301 438B3864
-D unchconv.ads		20261002155301 72DC4539
-D workload.ads		20261019174253 3A53254C
-D workload.adb		20261019174253 026C3B6F
+D ada.ads		20261108202543 2359F9ED
+D a-except.ads		20261108202543 287FCF69
+D a-numeri.ads		20261108202543 271ACBE2
+D a-nuelfu.ads		20261108202543 508A7580
+D a-ngelfu.ads		20261108202543 21EF4847
+D kernel.ads		20261108202543 56BBE4F1
+D kernel-parameters.ads	20261108202543 0D1B8F78
+D system.ads		20261108202543 2AE5BAFE
+D s-exctab.ads		20261108202543 7A25F5F9
+D s-stalib.ads		20261108202543 438B3864
+D unchconv.ads		20261108202543 72DC4539
+D workload.ads		20261108203124 3A53254C
+D workload.adb		20261108203124 026C3B6F
 X 1 ada.ads
 18U9*Ada 13|22r6 23r5
 X 3 a-numeri.ads
