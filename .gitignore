@@ -1,0 +1,20 @@
+# Archivos de objeto e información de librería de Ada (GNAT)
+*.o
+*.ali
+
+# Archivos temporales generados por el binder de GNAT
+b~*
+
+# Directorios comunes de salida de compilación
+obj/
+bin/
+out/
+
+# Ejecutables principales (añade aquí el nombre de tu programa si no tiene extensión)
+fss
+*.exe
+*.out
+
+# Archivos temporales de log o volcados del sistema operativo
+*.log
+*~
