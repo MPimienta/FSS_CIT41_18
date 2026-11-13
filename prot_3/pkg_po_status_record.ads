@@ -18,6 +18,7 @@ package Pkg_PO_Status_Record is
     end record;
 
     protected PO_Status_Record is
+        pragma Priority(15);
         procedure Update_Pitch_Status(Pitch : Pitch_Samples_Type);
         procedure Update_Roll_Status(Roll : Roll_Samples_Type);
         procedure Update_Altitude_Status(Altitude : Altitude_Samples_Type);

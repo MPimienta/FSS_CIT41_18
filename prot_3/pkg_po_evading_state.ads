@@ -3,6 +3,7 @@ with Tools; use Tools;
 
 package Pkg_PO_Evading_State is
     protected PO_Evading_State is
+        pragma Priority (18);
         procedure Update_Evading_State (New_State : Boolean);
         function Read_Evading_State return Boolean;
     private

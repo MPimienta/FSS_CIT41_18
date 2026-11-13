@@ -3,6 +3,7 @@ with devicesFSS_V1; use devicesFSS_V1;
 package Pkg_PO_Speed_Altitude is
 
    protected PO_Speed is
+      pragma Priority (18); 
       procedure Update_Speed_Protected (Valor : in Speed_Samples_Type);
       function  Read_Speed_Protected return Speed_Samples_Type;
    private
